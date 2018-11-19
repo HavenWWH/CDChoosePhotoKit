@@ -1,0 +1,23 @@
+PODS:
+  - CDChoosePhotoKit (0.1.0):
+    - TOCropViewController (~> 2.3.8)
+  - TOCropViewController (2.3.8)
+
+DEPENDENCIES:
+  - CDChoosePhotoKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TOCropViewController
+
+EXTERNAL SOURCES:
+  CDChoosePhotoKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CDChoosePhotoKit: 6d0199eb3300dad8a4017e9f461bd482c5c0a6bf
+  TOCropViewController: 0a075f02c253e88095143bbac7b013fc6fba5090
+
+PODFILE CHECKSUM: 74e229483e69f468e8ed4aea01147845b6ec768c
+
+COCOAPODS: 1.5.3

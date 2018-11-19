@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CDChoosePhotoKit_Example' do
+  pod 'CDChoosePhotoKit', :path => '../'
+
+  target 'CDChoosePhotoKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

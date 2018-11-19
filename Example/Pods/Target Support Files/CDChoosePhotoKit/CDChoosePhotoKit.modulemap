@@ -1,0 +1,6 @@
+framework module CDChoosePhotoKit {
+  umbrella header "CDChoosePhotoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
