@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = '拍照, 单选, 多选图片'
   s.description      = '单选, 多选图片, 支持图片进行裁剪,  裁剪引用第三方框架'
-  s.homepage         = 'https://github.com/Haven/CDChoosePhotoKit'
+  s.homepage         = 'https://github.com/HavenWWH/CDChoosePhotoKit'
   s.license          = { :type => "MIT", :file => "LICENSE" } 
   s.author           = { 'Haven' => '513433750@qq.com' }
-  s.source           = { :git => "https://github.com/HavenWWH/CDChoosePhotoKit.git", :tag => "0.1.0" } 
+  s.source           = { :git => "https://github.com/HavenWWH/CDChoosePhotoKit.git"} 
   
   s.ios.deployment_target = '8.0'
 
