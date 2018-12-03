@@ -29,7 +29,7 @@ imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
 [self presentViewController:imagePicker animated:YES completion:nil];
 
 * 相册调用此方法
-CDAlbumListController *vc = [[CDAlbumListController alloc] init];
+        CDAlbumListController *vc = [[CDAlbumListController alloc] init];
 
 // 保存已选照片
 vc.selctImageArray = self.selectArray;
