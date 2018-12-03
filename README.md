@@ -19,26 +19,40 @@ CDShowBigImage          放大图片
 相机调用系统自带方法
 
 UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
+
 imagePicker.delegate = self;
+
 imagePicker.allowsEditing = NO;
+
 imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
+
 [self presentViewController:imagePicker animated:YES completion:nil];
 
 相册调用此方法
 
 CDAlbumListController *vc = [[CDAlbumListController alloc] init];
+
 // 保存已选照片
+
 vc.selctImageArray = self.selectArray;
+
 // 最大可选择几张照片
+
 vc.maxCount = self.maxCount;
+
 // 是否需要剪裁
+
 vc.isCrop = self.isCrop;
+
 // 剪裁框比例
+
 if (self.isCrop) vc.cropScale = self.cropScale;
+
 UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
 
 __weak CDPhotoBaseViewController *weakSelf = self;
 // 选择完照片的回调
+
 vc.okClickComplete = ^(NSArray<ImageModel *> *images){
 
 }
