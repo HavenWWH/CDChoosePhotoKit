@@ -14,8 +14,6 @@
 
 @interface CDPhotoListController : UIViewController
 
-@property (nonatomic, strong)PHFetchResult *fetchResult;
-
 @property (nonatomic, copy) void(^okClickComplete)(NSArray<ImageModel *> *images);
 
 @property (nonatomic,strong)NSMutableArray *selectArray;//存储选择的相片

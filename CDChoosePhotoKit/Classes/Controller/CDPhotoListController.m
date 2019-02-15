@@ -17,6 +17,9 @@
 
 @interface CDPhotoListController ()<UICollectionViewDelegate, UICollectionViewDataSource, UINavigationControllerDelegate, CDPhotoCollectionViewCellDelegate, TOCropViewControllerDelegate>
 
+
+@property (nonatomic, strong)PHFetchResult *fetchResult;
+
 @property (nonatomic, strong) UICollectionView *collectionView;
 
 @property (nonatomic, assign) NSInteger dataCount;
@@ -35,6 +38,10 @@
     
     NSLog(@"内存警告");
     [super didReceiveMemoryWarning];
+}
+
+- (void)dealloc {
+    NSLog(@"控制器销毁");
 }
 
 - (void)viewDidLoad {
@@ -57,7 +64,7 @@
         
         [self.selectArray removeLastObject];
     }
-    [self.navigationController popViewControllerAnimated: YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)changeRightBarButtonItemTitle {
@@ -244,6 +251,13 @@
     _cropController.toolbar.resetButton.hidden = YES;
 
     return _cropController;
+}
+
+- (PHFetchResult *)fetchResult {
+    if (!_fetchResult) {
+        _fetchResult = [PHAsset fetchAssetsWithMediaType: PHAssetMediaTypeImage options: nil];
+    }
+    return _fetchResult;
 }
 
 @end

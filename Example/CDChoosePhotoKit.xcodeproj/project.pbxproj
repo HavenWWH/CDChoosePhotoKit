@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1DA9FDBDE438DBCD18F66D4D /* Pods_CDChoosePhotoKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AC99D0F2C20B7C5318DDF8 /* Pods_CDChoosePhotoKit_Tests.framework */; };
 		40537D34DF6AAB3878DB68BF /* Pods_CDChoosePhotoKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3509DC283C944DD8D82EBEF2 /* Pods_CDChoosePhotoKit_Example.framework */; };
-		5016F70A219C0D8B0048223D /* CDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5016F709219C0D8B0048223D /* CDTestViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,8 +40,6 @@
 		01053E84DAFE5CF93F950B66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3509DC283C944DD8D82EBEF2 /* Pods_CDChoosePhotoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDChoosePhotoKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CD8EFE617AD84DD9223872 /* CDChoosePhotoKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CDChoosePhotoKit.podspec; path = ../CDChoosePhotoKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5016F708219C0D8B0048223D /* CDTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDTestViewController.h; sourceTree = "<group>"; };
-		5016F709219C0D8B0048223D /* CDTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTestViewController.m; sourceTree = "<group>"; };
 		54AC99D0F2C20B7C5318DDF8 /* Pods_CDChoosePhotoKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDChoosePhotoKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* CDChoosePhotoKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDChoosePhotoKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -135,8 +132,6 @@
 		6003F593195388D20070C39A /* Example for CDChoosePhotoKit */ = {
 			isa = PBXGroup;
 			children = (
-				5016F708219C0D8B0048223D /* CDTestViewController.h */,
-				5016F709219C0D8B0048223D /* CDTestViewController.m */,
 				6003F59C195388D20070C39A /* CDAppDelegate.h */,
 				6003F59D195388D20070C39A /* CDAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -381,7 +376,6 @@
 				6003F59E195388D20070C39A /* CDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CDViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				5016F70A219C0D8B0048223D /* CDTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
