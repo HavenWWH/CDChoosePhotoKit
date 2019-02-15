@@ -25,7 +25,7 @@
     
     self.coverImageView.userInteractionEnabled = YES;
     self.coverImageView.clipsToBounds = YES;
-    self.coverImageView.contentMode = UIViewContentModeScaleToFill;
+    self.coverImageView.contentMode = UIViewContentModeScaleAspectFill;
     
     [self.coverImageView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(coverPhotoClick:)]];
     
@@ -62,7 +62,7 @@
     }];
     
     self.selectButton.tag = index;
-     NSString *path = [CurrentBundle pathForResource: [NSString stringWithFormat: @"ico_check_nomal@%zdx.png", ImageScale] ofType: nil inDirectory: CurrentBundleName];
+     NSString *path = [CurrentBundle pathForResource: [NSString stringWithFormat: @"ico_check_nomal@%zdx.png", ImageScale] ofType: nil inDirectory: nil];
     [self.selectButton setBackgroundImage: [UIImage imageWithContentsOfFile: path] forState:UIControlStateNormal];
     
     for (ImageModel *item in selectArray) {
@@ -70,7 +70,7 @@
         if ([item.asset.localIdentifier isEqualToString:asset.localIdentifier]) {
             
             self.selectButton.selected = YES;
-            NSString *path = [CurrentBundle pathForResource: [NSString stringWithFormat: @"ico_check_select@%zdx.png", ImageScale] ofType: nil inDirectory: CurrentBundleName];
+            NSString *path = [CurrentBundle pathForResource: [NSString stringWithFormat: @"ico_check_select@%zdx.png", ImageScale] ofType: nil inDirectory: nil];
             [self.selectButton setBackgroundImage:[UIImage imageWithContentsOfFile: path] forState:UIControlStateNormal];
         }
     }
@@ -79,7 +79,7 @@
 - (void)settingSelectButton:(BOOL)isSelect {
     
     self.selectButton.selected = isSelect;
-    NSString *path = [CurrentBundle pathForResource: [NSString stringWithFormat: @"ico_check_nomal@%zdx.png", ImageScale] ofType: nil inDirectory: CurrentBundleName];
+    NSString *path = [CurrentBundle pathForResource: [NSString stringWithFormat: @"ico_check_nomal@%zdx.png", ImageScale] ofType: nil inDirectory: nil];
     [self.selectButton setBackgroundImage: [UIImage imageWithContentsOfFile: path] forState:UIControlStateNormal];
 }
 

@@ -54,6 +54,11 @@
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:@selector(cancelNacigationItemAction)];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+}
+
 #pragma mark - Intial Methods
 
 #pragma mark - Target Methods
@@ -117,7 +122,7 @@
             [CDPhotoImageHelper showAlertWithTittle:[NSString stringWithFormat:@"最多只能选择%@张图片",@(self.maxCount)] message:nil showController:self isSingleAction:YES complete:nil];
             return;
         }
-        NSString *path = [CurrentBundle pathForResource: [NSString stringWithFormat: @"ico_check_select@%zdx.png", ImageScale] ofType: nil inDirectory: CurrentBundleName];
+        NSString *path = [CurrentBundle pathForResource: [NSString stringWithFormat: @"ico_check_select@%zdx.png", ImageScale] ofType: nil inDirectory: nil];
         [button setBackgroundImage: [UIImage imageWithContentsOfFile: path] forState:UIControlStateNormal];
         
         if (!self.isCrop) { // 不剪裁
@@ -137,7 +142,7 @@
             }];
         }
     } else {
-        NSString *path = [CurrentBundle pathForResource: [NSString stringWithFormat: @"ico_check_nomal@%zdx.png", ImageScale] ofType: nil inDirectory: CurrentBundleName];
+        NSString *path = [CurrentBundle pathForResource: [NSString stringWithFormat: @"ico_check_nomal@%zdx.png", ImageScale] ofType: nil inDirectory: nil];
         [button setBackgroundImage: [UIImage imageWithContentsOfFile: path] forState:UIControlStateNormal];
         int count = -1;
         for (ImageModel *subItem in self.selectArray.mutableCopy) {
@@ -190,11 +195,12 @@
     layout.minimumInteritemSpacing = 2.0;
     layout.scrollDirection = UICollectionViewScrollDirectionVertical;
     
-    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
+    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height - (kIs_iPhoneX ? 88 : 64)) collectionViewLayout:layout];
     collectionView.delegate = self;
     collectionView.dataSource = self;
     collectionView.showsVerticalScrollIndicator = NO;
     collectionView.showsHorizontalScrollIndicator = NO;
+    
     
     self.collectionView = collectionView;
     [self.view addSubview:self.collectionView];
@@ -231,7 +237,9 @@
     }
 //    [self.collectionView reloadItemsAtIndexPaths: @[[NSIndexPath indexPathForItem: self.selectCell.closeButton.tag inSection: 0]]];
     [self changeRightBarButtonItemTitle];
+    [self.collectionView reloadData];
 }
+
 
 - (TOCropViewController *)cropController {
     _cropController = [[TOCropViewController alloc] initWithCroppingStyle: TOCropViewCroppingStyleDefault image:self.selectImage];

@@ -1,25 +1,34 @@
 {
   "name": "CDChoosePhotoKit",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "summary": "拍照, 单选, 多选图片",
   "description": "单选, 多选图片, 支持图片进行裁剪,  裁剪引用第三方框架",
-  "homepage": "https://github.com/Haven/CDChoosePhotoKit",
-  "license": "MIT",
+  "homepage": "https://github.com/HavenWWH/CDChoosePhotoKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
     "Haven": "513433750@qq.com"
   },
   "source": {
-    "/Users/wuwenhai/Desktop/LocalPrivateLibrary/CDChoosePhotoKit/CDChoosePhotoKit.podspec": "."
+    "git": "https://gitlab.ttsing.com/ios/CDChoosePhotoKit.git"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CDChoosePhotoKit/Classes/**/*",
-  "resource_bundles": {
-    "CDChoosePhotoKit": [
-      "CDChoosePhotoKit/Assets/*"
-    ]
-  },
+  "source_files": "CDChoosePhotoKit/Classes/**/*.{h,m}",
+  "resources": "CDChoosePhotoKit/**/*.{png,xib,nib,bundle}",
+  "public_header_files": "CDChoosePhotoKit/Classes/**/*.h",
+  "frameworks": [
+    "CoreGraphics",
+    "Photos",
+    "AssetsLibrary",
+    "AddressBook",
+    "AddressBookUI",
+    "UIKit",
+    "Foundation"
+  ],
   "dependencies": {
     "TOCropViewController": [
       "~> 2.3.8"

@@ -10,10 +10,7 @@
 #endif
 #endif
 
-#import "CDAlbumListTableViewCell.h"
 #import "CDPhotoCollectionViewCell.h"
-#import "CDAlbumListController.h"
-#import "CDPhotoBaseViewController.h"
 #import "CDPhotoListController.h"
 #import "CDCustomSheet.h"
 #import "CDPhotoImageHelper.h"

@@ -10,8 +10,7 @@
 
 
 #define ImageScale  (NSInteger)[UIScreen mainScreen].scale
-#define CurrentBundle [NSBundle bundleForClass: [CDPhotoImageHelper class]]
-#define CurrentBundleName [NSString stringWithFormat:@"%@.bundle",  CurrentBundle.infoDictionary[@"CFBundleExecutable"]]
+#define CurrentBundle [NSBundle bundleForClass: [self class]]
 
 typedef NS_ENUM(NSInteger, AlbumType) {
     AlbumTypeDefault   = 0, // 默认

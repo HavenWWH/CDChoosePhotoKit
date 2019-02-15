@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CDChoosePhotoKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '拍照, 单选, 多选图片'
   s.description      = '单选, 多选图片, 支持图片进行裁剪,  裁剪引用第三方框架'
   s.homepage         = 'https://github.com/HavenWWH/CDChoosePhotoKit'

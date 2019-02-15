@@ -350,7 +350,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CDChoosePhotoKit_Example/Pods-CDChoosePhotoKit_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CDChoosePhotoKit_Example/Pods-CDChoosePhotoKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CDChoosePhotoKit/CDChoosePhotoKit.framework",
 				"${BUILT_PRODUCTS_DIR}/TOCropViewController/TOCropViewController.framework",
 			);
@@ -363,7 +363,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDChoosePhotoKit_Example/Pods-CDChoosePhotoKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CDChoosePhotoKit_Example/Pods-CDChoosePhotoKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

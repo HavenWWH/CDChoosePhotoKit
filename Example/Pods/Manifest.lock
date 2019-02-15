@@ -1,5 +1,5 @@
 PODS:
-  - CDChoosePhotoKit (0.1.0):
+  - CDChoosePhotoKit (0.1.3):
     - TOCropViewController (~> 2.3.8)
   - TOCropViewController (2.3.8)
 
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CDChoosePhotoKit: 6d0199eb3300dad8a4017e9f461bd482c5c0a6bf
+  CDChoosePhotoKit: 9eaf52ac218a7d0b05e1e4693dd200b67a6c3661
   TOCropViewController: 0a075f02c253e88095143bbac7b013fc6fba5090
 
 PODFILE CHECKSUM: 74e229483e69f468e8ed4aea01147845b6ec768c
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.2
