@@ -15,12 +15,14 @@
 #import "TOCropViewController.h"
 
 
+
 @interface CDPhotoListController ()<UICollectionViewDelegate, UICollectionViewDataSource, UINavigationControllerDelegate, CDPhotoCollectionViewCellDelegate, TOCropViewControllerDelegate>
 
 
 @property (nonatomic, strong)PHFetchResult *fetchResult;
 
 @property (nonatomic, strong) UICollectionView *collectionView;
+@property (nonatomic, strong) UICollectionViewFlowLayout *layout;
 
 @property (nonatomic, assign) NSInteger dataCount;
 
@@ -28,7 +30,10 @@
 // 裁剪照片控制器
 @property (nonatomic, strong) TOCropViewController *cropController;
 
+
 @property (nonatomic, strong) UIImage *selectImage;
+
+
 @end
 
 @implementation CDPhotoListController
@@ -47,7 +52,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.dataCount = self.selectArray.count;
-    
     [self creatCollectionView];
     [self changeRightBarButtonItemTitle];
     
@@ -57,6 +61,18 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    // 横竖屏处理
+    if (!(self.collectionView.frame.size.width == self.view.bounds.size.width && self.collectionView.frame.size.height == self.view.bounds.size.height)) {
+        self.collectionView.frame = self.view.bounds;
+    }
 }
 
 #pragma mark - Intial Methods
@@ -103,8 +119,7 @@
     CGFloat offset = self.collectionView.contentSize.height - self.collectionView.bounds.size.height;
     if (offset > 0) {
         
-        CGFloat width = (kScreenWidthW - 2 * 2) / 3;
-        [self.collectionView setContentOffset:CGPointMake(0, offset+ width/2.0) animated:animated];
+        [self.collectionView setContentOffset:CGPointMake(0, offset+ [self referenceImageSize].width / 2.0) animated:animated];
     }
 }
 
@@ -133,8 +148,7 @@
         } else { // 需要剪裁
             
             __weak typeof(self)  weakSelf = self;
-            [CDPhotoImageHelper getImageDataWithAsset: self.selectCell.asset complete:^(UIImage *image,UIImage*HDImage) {
-
+            [CDPhotoImageHelper getImageDataWithAsset:self.selectCell.asset complete:^(UIImage *image) {
                 if (image) {
                     weakSelf.selectImage = image;
                     [weakSelf presentViewController: weakSelf.cropController animated: NO completion:nil];
@@ -176,32 +190,61 @@
     
     PHAsset *asset = self.fetchResult[indexPath.row];
     
-    [cell settingSelectArray: self.selectArray asset: asset index: indexPath.row withDelegate: self];
-    
+    [cell settingSelectArray: self.selectArray asset: asset size:[self referenceImageSize] index: indexPath.row withDelegate: self];
     return cell;
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    CGFloat width = (kScreenWidthW - 2 * 2) / 3;
-    return CGSizeMake(width, width);
+    return [self referenceImageSize];
+}
+
+- (void)setMinimumImageWidth:(CGFloat)minimumImageWidth {
+    _minimumImageWidth = minimumImageWidth;
+    
+    [self referenceImageSize];
+}
+
+
+
+- (CGSize)referenceImageSize {
+    
+    CGFloat collectionViewWidth = CGRectGetWidth(self.collectionView.bounds);
+    CGFloat contentEdgeW = self.collectionView.contentInset.left + self.collectionView.contentInset.right;
+    CGFloat collectionViewContentSpacing = collectionViewWidth - contentEdgeW;
+    NSInteger columnCount = floor(collectionViewContentSpacing / self.minimumImageWidth);
+    CGFloat referenceImageWidth = self.minimumImageWidth;
+    BOOL isSpacingEnoughWhenDisplayInMinImageSize = contentEdgeW + (self.minimumImageWidth + self.layout.minimumInteritemSpacing) * columnCount - self.layout.minimumInteritemSpacing <= collectionViewContentSpacing;
+    if (!isSpacingEnoughWhenDisplayInMinImageSize) {
+        // 算上图片之间的间隙后发现其实还是放不下啦，所以得把列数减少，然后放大图片以撑满剩余空间
+        columnCount -= 1;
+    }
+    referenceImageWidth = (collectionViewContentSpacing - contentEdgeW - self.layout.minimumInteritemSpacing * (columnCount - 1)) / columnCount;
+    return CGSizeMake(referenceImageWidth, referenceImageWidth);
 }
 
 #pragma mark - Setter Getter Methods
 - (void)creatCollectionView {
     
-    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-    layout.minimumLineSpacing = 2.0;
-    layout.minimumInteritemSpacing = 2.0;
-    layout.scrollDirection = UICollectionViewScrollDirectionVertical;
+    self.layout = [[UICollectionViewFlowLayout alloc] init];
+    self.layout.minimumLineSpacing = 1.0;
+    self.layout.minimumInteritemSpacing = 1.0;
+    self.layout.scrollDirection = UICollectionViewScrollDirectionVertical;
     
-    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height - (kIs_iPhoneX ? 88 : 64)) collectionViewLayout:layout];
+    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) collectionViewLayout:self.layout];
     collectionView.delegate = self;
     collectionView.dataSource = self;
     collectionView.showsVerticalScrollIndicator = NO;
     collectionView.showsHorizontalScrollIndicator = NO;
     
-    
+//    if (@available(iOS 11, *)) {
+//
+//        collectionView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+//    } else {
+//
+//        self.automaticallyAdjustsScrollViewInsets = NO;
+//    }
+
     self.collectionView = collectionView;
     [self.view addSubview:self.collectionView];
     collectionView.backgroundColor = [UIColor whiteColor];

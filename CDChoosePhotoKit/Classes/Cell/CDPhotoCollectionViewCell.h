@@ -11,7 +11,6 @@
 
 #define kScreenWidthW             [[UIScreen mainScreen] bounds].size.width
 #define kScreenHeightH            [[UIScreen mainScreen] bounds].size.height
-#define kItemWidth      2 * (kScreenWidthW - 4)/3.0
 #define kIs_iPhoneX kScreenWidthW >=375.0f && kScreenHeightH >=812.0f
 
 @class CDPhotoCollectionViewCell;
@@ -25,7 +24,7 @@
 
 @interface CDPhotoCollectionViewCell : UICollectionViewCell
 
-- (void)settingSelectArray: (NSMutableArray *)selectArray asset: (PHAsset *)asset index: (NSInteger)index withDelegate: (id<CDPhotoCollectionViewCellDelegate>)delegate;
+- (void)settingSelectArray: (NSMutableArray *)selectArray asset: (PHAsset *)asset size:(CGSize)imageSize index: (NSInteger)index withDelegate: (id<CDPhotoCollectionViewCellDelegate>)delegate;
 
 @property (nonatomic, strong) PHAsset *asset;
 

@@ -18,6 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    NSNumber *orientationUnknown = [NSNumber numberWithInt:UIInterfaceOrientationUnknown];
+    [[UIDevice currentDevice] setValue:orientationUnknown forKey:@"orientation"];
+    NSNumber *orientationTarget = [NSNumber numberWithInt:UIInterfaceOrientationLandscapeRight];
+    [[UIDevice currentDevice] setValue:orientationTarget forKey:@"orientation"];
 }
 
 // 保存相片到相机胶卷 涉及到相机和相册结合的多选的时候, 相机拍照的时候需要用此方法保存图片, 且再次进入相册时需要将选中的照片传入
@@ -42,6 +48,7 @@
     vc.selectArray = self.selectPhotoArray;
     vc.maxCount = 6;
     vc.isCrop = YES;
+    vc.minimumImageWidth = 100;
     vc.cropScale = CGSizeMake(1, 1);
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     
@@ -58,10 +65,10 @@
                     [weakSelf.cameraMutaArray addObject:obj.thumbImage];
                 } else {
                     
-                    [CDPhotoImageHelper getImageDataWithAsset:obj.asset complete:^(UIImage *image,UIImage*HDImage) {
+                    [CDPhotoImageHelper getImageDataWithAsset:obj.asset complete:^(UIImage *image) {
                         
                         if (image) {
-                
+                            
                             [weakSelf.cameraMutaArray addObject:image];
                         }
                     }];

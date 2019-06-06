@@ -96,11 +96,10 @@
 // 获取指定大小的图片
 + (void)getImageWithAsset:(PHAsset *)asset tagetSize:(CGSize)size complete:(void(^)(UIImage *))complete {
     
-    PHImageManager *imageManager = [PHImageManager defaultManager];
     PHImageRequestOptions *options = [[PHImageRequestOptions alloc] init];
     // PHImageRequestOptionsResizeModeFast 不设置这种方式获取图片的话, 卡顿很严重,
     options.resizeMode = PHImageRequestOptionsResizeModeFast;
-    [imageManager requestImageForAsset:asset targetSize:size contentMode:PHImageContentModeAspectFill options: options resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
+    [[PHImageManager defaultManager] requestImageForAsset:asset targetSize:size contentMode:PHImageContentModeAspectFill options: options resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
         dispatch_async(dispatch_get_global_queue(0, 0), ^{
             dispatch_async(dispatch_get_main_queue(), ^{
                 complete?complete(result):nil;
@@ -109,19 +108,16 @@
     }];
 }
 
-+ (void)getImageDataWithAsset:(PHAsset *)asset complete:(void (^)(UIImage *,UIImage*))complete {
++ (void)getImageDataWithAsset:(PHAsset *)asset complete:(void (^)( UIImage*))complete {
     
     PHImageRequestOptions *option = [[PHImageRequestOptions alloc] init];
     // PHImageRequestOptionsResizeModeFast 不设置这种方式获取图片的话, 卡顿很严重,
     option.resizeMode = PHImageRequestOptionsResizeModeFast;
     option.synchronous = YES;
-    [[PHImageManager defaultManager] requestImageDataForAsset:asset options:option resultHandler:^(NSData * _Nullable imageData, NSString * _Nullable dataUTI, UIImageOrientation orientation, NSDictionary * _Nullable info) {
-//        UIImage *HDImage = [UIImage imageWithData:imageData];
-//        UIImage *image = [UIImage clipImage:HDImage];
-//        complete?complete(image,HDImage):nil;
-        UIImage *HDImage = [UIImage imageWithData:imageData];
-        UIImage *image = HDImage;
-        complete?complete(image,HDImage):nil;
+    option.networkAccessAllowed = true;
+    [[PHImageManager defaultManager] requestImageForAsset:asset targetSize:PHImageManagerMaximumSize contentMode:PHImageContentModeDefault options: option resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
+
+        complete?complete(result):nil;
     }];
 }
 

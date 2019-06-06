@@ -14,11 +14,16 @@
 
 @interface CDPhotoListController : UIViewController
 
+// 选择照片完成回调
 @property (nonatomic, copy) void(^okClickComplete)(NSArray<ImageModel *> *images);
+// 存储选择的相片
+@property (nonatomic,strong)NSMutableArray *selectArray;
 
-@property (nonatomic,strong)NSMutableArray *selectArray;//存储选择的相片
-
+// 图片选择最大数量
 @property (nonatomic, assign) NSInteger maxCount;
+// 图片的尺寸, 默认100 必须设置
+@property (nonatomic, assign) CGFloat minimumImageWidth;
+
 
 // 是否剪裁
 @property (nonatomic, assign)  BOOL isCrop;

@@ -8,7 +8,8 @@
 #import <Foundation/Foundation.h>
 #import <Photos/Photos.h>
 
-
+#define __MAIN_SCREEN_HEIGHT__      MAX([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
+#define __MAIN_SCREEN_WIDTH__       MIN([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
 #define ImageScale  (NSInteger)[UIScreen mainScreen].scale
 #define CurrentBundle [NSBundle bundleForClass: [self class]]
 
@@ -68,7 +69,7 @@ typedef NS_ENUM(NSUInteger, CDCaremaPhotoAuthStatus) {
  @param asset PHAsset 对象
  @param complete 回调 返回image
  */
-+ (void)getImageDataWithAsset:(PHAsset *)asset complete:(void (^)(UIImage *,UIImage*))complete;
++ (void)getImageDataWithAsset:(PHAsset *)asset complete:(void (^)(UIImage *))complete;
 
 /**
  请求相册访问权限

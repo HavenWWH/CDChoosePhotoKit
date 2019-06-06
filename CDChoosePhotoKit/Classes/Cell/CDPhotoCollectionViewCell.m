@@ -48,14 +48,14 @@
 }
 
 #pragma mark - Public Methods
-- (void)settingSelectArray: (NSMutableArray *)selectArray asset: (PHAsset *)asset index: (NSInteger)index withDelegate: (id<CDPhotoCollectionViewCellDelegate>)delegate {
+- (void)settingSelectArray: (NSMutableArray *)selectArray asset: (PHAsset *)asset size:(CGSize)imageSize index: (NSInteger)index withDelegate: (id<CDPhotoCollectionViewCellDelegate>)delegate {
     
     self.delegate = delegate;
     self.asset = asset;
     
     // 相册对象转图片
     __weak typeof(self) weakSelf = self;
-    [CDPhotoImageHelper getImageWithAsset: asset tagetSize:CGSizeMake(kItemWidth,kItemWidth) complete:^(UIImage *image) {
+    [CDPhotoImageHelper getImageWithAsset: asset tagetSize:imageSize complete:^(UIImage *image) {
         
         NSData *imageData = UIImageJPEGRepresentation(image, 0.5);
         weakSelf.coverImageView.image = [UIImage imageWithData: imageData];
