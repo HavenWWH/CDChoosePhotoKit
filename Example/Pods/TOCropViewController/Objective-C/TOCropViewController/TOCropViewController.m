@@ -120,7 +120,7 @@ static const CGFloat kTOCropViewControllerToolbarHeight = 44.0f;
     BOOL circularMode = (self.croppingStyle == TOCropViewCroppingStyleCircular);
 
     // Layout the views initially
-    self.cropView.frame = [self frameForCropViewWithVerticalLayout:self.verticalLayout];
+    self.cropView.frame = [self  frameForCropViewWithVerticalLayout:self.verticalLayout];
     self.toolbar.frame = [self frameForToolbarWithVerticalLayout:self.verticalLayout];
 
     // Set up toolbar default behaviour
@@ -1198,7 +1198,7 @@ static const CGFloat kTOCropViewControllerToolbarHeight = 44.0f;
 
 - (BOOL)verticalLayout
 {
-    return CGRectGetWidth(self.view.bounds) < CGRectGetHeight(self.view.bounds);
+    return CGRectGetWidth(self.view.bounds) > CGRectGetHeight(self.view.bounds);
 }
 
 - (BOOL)overrideStatusBar
