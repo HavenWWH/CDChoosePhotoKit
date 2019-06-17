@@ -56,9 +56,8 @@
     // 相册对象转图片
     __weak typeof(self) weakSelf = self;
     [CDPhotoImageHelper getImageWithAsset: asset tagetSize:imageSize complete:^(UIImage *image) {
-        
-        NSData *imageData = UIImageJPEGRepresentation(image, 0.5);
-        weakSelf.coverImageView.image = [UIImage imageWithData: imageData];
+    
+        weakSelf.coverImageView.image = image;
     }];
     
     self.selectButton.tag = index;

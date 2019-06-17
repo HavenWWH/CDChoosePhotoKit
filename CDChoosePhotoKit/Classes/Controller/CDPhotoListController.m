@@ -72,6 +72,8 @@
     // 横竖屏处理
     if (!(self.collectionView.frame.size.width == self.view.bounds.size.width && self.collectionView.frame.size.height == self.view.bounds.size.height)) {
         self.collectionView.frame = self.view.bounds;
+        
+        [self.collectionView reloadData];
     }
 }
 
@@ -209,6 +211,9 @@
 
 - (CGSize)referenceImageSize {
     
+    if ([self minimumImageWidth] == 0) {
+        self.minimumImageWidth = 100;
+    }
     CGFloat collectionViewWidth = CGRectGetWidth(self.collectionView.bounds);
     CGFloat contentEdgeW = self.collectionView.contentInset.left + self.collectionView.contentInset.right;
     CGFloat collectionViewContentSpacing = collectionViewWidth - contentEdgeW;
@@ -219,7 +224,7 @@
         // 算上图片之间的间隙后发现其实还是放不下啦，所以得把列数减少，然后放大图片以撑满剩余空间
         columnCount -= 1;
     }
-    referenceImageWidth = (collectionViewContentSpacing - contentEdgeW - self.layout.minimumInteritemSpacing * (columnCount - 1)) / columnCount;
+    referenceImageWidth = (collectionViewContentSpacing - contentEdgeW - self.layout.minimumInteritemSpacing * (columnCount - 1)) / (double)columnCount;
     return CGSizeMake(referenceImageWidth, referenceImageWidth);
 }
 

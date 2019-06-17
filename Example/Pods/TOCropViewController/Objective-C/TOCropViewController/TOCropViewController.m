@@ -1198,7 +1198,7 @@ static const CGFloat kTOCropViewControllerToolbarHeight = 44.0f;
 
 - (BOOL)verticalLayout
 {
-    return CGRectGetWidth(self.view.bounds) > CGRectGetHeight(self.view.bounds);
+    return CGRectGetWidth(self.view.bounds) < CGRectGetHeight(self.view.bounds);
 }
 
 - (BOOL)overrideStatusBar

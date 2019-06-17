@@ -99,6 +99,7 @@
     PHImageRequestOptions *options = [[PHImageRequestOptions alloc] init];
     // PHImageRequestOptionsResizeModeFast 不设置这种方式获取图片的话, 卡顿很严重,
     options.resizeMode = PHImageRequestOptionsResizeModeFast;
+    options.networkAccessAllowed = true;
     [[PHImageManager defaultManager] requestImageForAsset:asset targetSize:size contentMode:PHImageContentModeAspectFill options: options resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
         dispatch_async(dispatch_get_global_queue(0, 0), ^{
             dispatch_async(dispatch_get_main_queue(), ^{

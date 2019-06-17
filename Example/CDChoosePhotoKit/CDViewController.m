@@ -48,7 +48,7 @@
     vc.selectArray = self.selectPhotoArray;
     vc.maxCount = 6;
     vc.isCrop = YES;
-    vc.minimumImageWidth = 100;
+//    vc.minimumImageWidth = 100;
     vc.cropScale = CGSizeMake(1, 1);
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     
