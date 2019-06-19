@@ -19,7 +19,7 @@
 @optional
 - (void)selectButonClick: (UIButton *)button cell: (CDPhotoCollectionViewCell *)cell;
 
-- (void)coverPhotoClick: (UIGestureRecognizer *)tapGesture cell: (CDPhotoCollectionViewCell *)cell;
+- (void)coverPhotoClick: (UIGestureRecognizer *)tapGesture cell: (CDPhotoCollectionViewCell *)cell asset:(PHAsset *)asset;
 @end
 
 @interface CDPhotoCollectionViewCell : UICollectionViewCell

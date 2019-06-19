@@ -35,8 +35,8 @@
 #pragma mark - Target Methods
 - (void)coverPhotoClick: (UIGestureRecognizer *)gesture {
     
-    if ([self.delegate respondsToSelector:@selector(coverPhotoClick:cell:)]) {
-        [self.delegate coverPhotoClick: gesture cell: self];
+    if ([self.delegate respondsToSelector:@selector(coverPhotoClick:cell:asset:)]) {
+        [self.delegate coverPhotoClick: gesture cell: self asset:self.asset];
     }
 }
 

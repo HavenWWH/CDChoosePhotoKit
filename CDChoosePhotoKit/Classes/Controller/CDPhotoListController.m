@@ -175,10 +175,15 @@
 }
 
 // 放大图片
-- (void)coverPhotoClick: (UIGestureRecognizer *)tapGesture cell: (CDPhotoCollectionViewCell *)cell {
+- (void)coverPhotoClick: (UIGestureRecognizer *)tapGesture cell: (CDPhotoCollectionViewCell *)cell asset:(PHAsset *)asset {
     
-//    UIImageView *clickImageView = (UIImageView*)tapGesture.view;
-//    [[CDShowBigImage shareInstance] showBigImage:clickImageView];
+    UIImageView *clickImageView = (UIImageView*)tapGesture.view;
+    [CDPhotoImageHelper getImageDataWithAsset:asset complete:^(UIImage *image) {
+        
+        clickImageView.image = image;
+        [[CDShowBigImage shareInstance] showBigImage:clickImageView];
+    }];
+    
 }
 #pragma mark - UICollectionViewDelegate & UICollectionViewDataSource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
