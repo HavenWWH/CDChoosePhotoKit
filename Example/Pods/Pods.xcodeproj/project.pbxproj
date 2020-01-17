@@ -7,128 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		003EE954AAC1F95C1AAE137FCB06DB8E /* ico_check_nomal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176033CB693950CDEA5FEA6D1555C556 /* ico_check_nomal@3x.png */; };
-		0090FD516D4FEEDA1F078062741AA962 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC16E97480DCA4A54553A29E2682A6B /* TOCropViewController.m */; };
-		0494A94D9F446D2DA577DBD8185B4ADB /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1079DA39DE813C846593C29BC17D7438 /* fr.lproj */; };
-		05C76836787585B825DF3F946D34DA94 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 586B1D48BFB5504DED4D8DC693B0B8EC /* ja.lproj */; };
-		0908FDAD4409C17981382A669D139C66 /* CDChoosePhotoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E6A3C06A834525EAA61291B13C9B9F /* CDChoosePhotoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BC89CA3E09B334B79764BA51887653A /* TOCropViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FB03CC77CD71A60BCBED094975F87B /* TOCropViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10288EC322C667C6B53CA63A639735A1 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 42B75703A982A5FEB4129AFE80135ACE /* ru.lproj */; };
-		1DABD8282C04A382F27DB0600604EBCB /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A93FDB76693419BC3453A46290523 /* TOCropScrollView.m */; };
-		22786B58E5606F602DC89EEA5384DDA1 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969BA19C529C4EAE51F3E03ABC80AFC0 /* AddressBookUI.framework */; };
-		232B5E34191BD2FD6A41DFD1C99D356A /* CDPhotoListController.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CCF9F5CC976E676E25D41579D43628 /* CDPhotoListController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26D1C8D73628BC36ED2ED38612751A9F /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD92FAE4D6359C344CE80B6B8045744 /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26DECB8C10965F33AC7F6078783DD963 /* ico_check_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0768693FF4E184A87F017D343E2EE8F /* ico_check_select@2x.png */; };
-		2CA97408AB322659EC0ED8D47D578C85 /* ico_check_nomal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B092FEE4212120D994D5711BC024BE21 /* ico_check_nomal@2x.png */; };
-		2EB2A43B4C61CB5906400C550B16C573 /* CDPhotoImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B942F7B5653530F4849BFB15E36498 /* CDPhotoImageHelper.m */; };
-		2FA47DCC0A4285594B819DAF7D10E2BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34AEDD80D87924954E0E0970FE612FD /* CoreGraphics.framework */; };
-		317E83FC0B9126EEA15D72C476676E2E /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B840FD92B45284556A3EB5ACB0E368C7 /* Base.lproj */; };
-		318EA1EFC2F9FB05B167170BA204B71C /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4323B15883011B7ADB59C32228FC16 /* TOCroppedImageAttributes.m */; };
-		33A26FAC0EE353893F1B878E1449FAF7 /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92CC9D63089669AEE379028246EB9BB4 /* TOCropViewControllerBundle.bundle */; };
-		3498955261F6CDBFCBF98C72FD259AFD /* CDChoosePhotoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB7F4D87E46610A838BAE0F26C0496E /* CDChoosePhotoKit-dummy.m */; };
-		393A281E5E8B2FED44B17357D7765B29 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3CD828636FE3D415B54C25DC317AE2AE /* tr.lproj */; };
-		3D63127FD13D9B8ECD0819E53CFDA05E /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 371E89EF0B9D7713FEACD07AE6DCA558 /* ar.lproj */; };
-		3F17EE8C7C5DE195281D3088431722F7 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = B948BFF581EAD03C5F0AFF9B532D9D21 /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		469740918B73B5023B7894FB52E88BD9 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D35AE30E8D0E5527D49AE7E1C4B72C /* TOActivityCroppedImageProvider.m */; };
-		470BEA2D2543A3F3CCBF8A11D7705875 /* CDShowBigImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C35EE5F89E47320561BF6AD11C744 /* CDShowBigImage.m */; };
-		50EE81AC17E3E3D772DE953D575A8A6E /* CDShowBigImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B169322941253E24773104D295EB83E2 /* CDShowBigImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57EDBA16308084072331DA5367BCC26C /* da-DK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1F4BDD34AC678909B392095389FB45FD /* da-DK.lproj */; };
-		5D51546CB9DF495810C07289BC41353A /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2204AC7C6792714DFC8DEAC289EB5700 /* zh-Hant.lproj */; };
-		5EA3458E1B86EAF8FB10DE6B2CF8FFE5 /* TOCropViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFAE6B6780B5BCA05E55511B134090B /* TOCropViewController.framework */; };
-		60BBCD18AB5AC0CA4F11B84BBE7CCEB6 /* Pods-CDChoosePhotoKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDAA4793B518DF0BA676BB9A55B25415 /* Pods-CDChoosePhotoKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68B001E3EB52D5082380147F5ABAFFE2 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B8C167C6FAA323513964400AF27428B1 /* en.lproj */; };
-		6F21185107587201DD1F1D94ADAEE994 /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4514BD5B85CA7835AD4CE61C6A5C55F9 /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7149DA980CC7F33AFF2FB9EFEB12E4D4 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78189674CD2F339A4FEC1F76F9D3661D /* TOCropView.m */; };
-		73B5E17757E7661B5D24E3622D86C476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E308B3652C9B201BB2A90649C0E2B0C4 /* Foundation.framework */; };
-		7575F86FB8BE4724090F1E8561583CF0 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D07682AD310184C4B9FFAB52C9F054 /* TOCropViewControllerTransitioning.m */; };
-		776B24B131BA8570C0F07337F1FD48B0 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E7745C5F707B17EF20B86A83BE2F35 /* TOCropOverlayView.m */; };
-		7774F452787CE46C25CB33ADDBFCB6DB /* TOCropViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7FDDB8E780E8C27E0CCEF76FF2C0B4 /* TOCropViewController-dummy.m */; };
-		77787BDE463A96D973C11485DBB885D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E308B3652C9B201BB2A90649C0E2B0C4 /* Foundation.framework */; };
-		7B986A9AC105DAFD02878CFDC1B9E63E /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4057EBD061527C463488DAB78792EBC7 /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CE4F9BC49F9DB74D8DF4C693E9E0A67 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = FF33D82A9F03415F20CF4D82D25AA78C /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80A1B44DC8EAD0F1BFF55F0FA67006BE /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F2C99D62835C94EC63560499B27C9665 /* nl.lproj */; };
-		816D8A44B44287CFCF03A04936FF6CB7 /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D68021F5D88A47DCC313208179D9B6D8 /* pl.lproj */; };
-		89B55E66BD687F9627F61DCF34E05B90 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D9EFA36202AFE82ED70270F2A8F751 /* Photos.framework */; };
-		903423A7262E7E29335A91EA4B063116 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71CE6D4413E414B6712487E247CF911 /* AddressBook.framework */; };
-		90ACB2813757B2E306B40A6975379910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E308B3652C9B201BB2A90649C0E2B0C4 /* Foundation.framework */; };
-		924D289122208A927579A88EC8CE48AC /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AA41B03C086130F6CA7B9665BCCFE8D7 /* ms.lproj */; };
-		987417E4BDE1A50BB600806E1B864C1A /* Pods-CDChoosePhotoKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11887579D1C8A44382B56FFAC18516F /* Pods-CDChoosePhotoKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C42E5A6E7D6B02DA42117C47BDD9A61 /* CDCustomSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 881E28E98A6B3C8CAF3CA45696575B13 /* CDCustomSheet.m */; };
-		A218E2AA89BFDCC4C8E08B1AEB0B530F /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 513F22D5CE6988C1BCEA7B0E6BEC6AE4 /* es.lproj */; };
-		ADA682563E157F3C35E4C8518888408A /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0F91A2232B33568190A4D97DE176CA /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEE1C98B0A7C1E37FECF599EA223F85F /* CDPhotoImageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D3675B7C5E97AEAB6D48FE7C3FCC1FF /* CDPhotoImageHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B34FB6AE8D2A0A2F414EE29C76A97952 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 24EB493F346926F045C1D1740AAB1843 /* ko.lproj */; };
-		B3955BA1825695F2668833D85D88A169 /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB96FB1353C1CBE1D3CA9271D0C7B19 /* TOCropViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7698A9644824C4AEE720347C01D1465 /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7A3F01AFF8BDD722402B67A23DE245 /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA1666D0280D919641CB253D66580BBD /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 552FBF62F1490912741B3E9F2963BAC0 /* pt.lproj */; };
-		C136FBC65EC5686DB71803AEFEC417D6 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 915BD7B6B0FADB224B6BF3C464241A50 /* de.lproj */; };
-		C34DFDD30B4F43E7A3BAC4891C16FE5B /* CDPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8DE89FAB2490ED5872F350866A4F60 /* CDPhotoCollectionViewCell.xib */; };
-		C5C34D6725A098B0553EDAD8D93EE325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E308B3652C9B201BB2A90649C0E2B0C4 /* Foundation.framework */; };
-		CAD1E27D83D24BC20160E266FB37A09A /* plus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65E8C97DCFF3938F69BF547AD31625AF /* plus@3x.png */; };
-		CF0EC0A4C6AC96F9A83C7FC2874DE2D3 /* CDPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C14678959908D5FAD846344E0D50EEE6 /* CDPhotoCollectionViewCell.m */; };
-		CF9F59078B8B1408E5D1F6EFF1D0CF61 /* Pods-CDChoosePhotoKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B214214965E7CF536D5D21461DEC5358 /* Pods-CDChoosePhotoKit_Example-dummy.m */; };
-		D25B19A85816B9359E7D41A9E05F5686 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE003EE6543ADF2A6A3209A097D76BC5 /* AssetsLibrary.framework */; };
-		D4260FFC760698F38844A044D58FF626 /* CDPhotoCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F22B27E68ADD7E00A3F0480BAC8DF0 /* CDPhotoCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF79216383A6B228EEADB4601C21994A /* CDPhotoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7C5242A8907958F4B1B39BB8826FB6 /* CDPhotoListController.m */; };
-		E6BC724ABC77DAADE4BA89EE25D1C1AC /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BEC7B5A8E59E784BD4CC29E31EBBF9 /* TOCropToolbar.m */; };
-		E71BEF794CB83C053BE471492CDBBD1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5400F43B5CF0B559B05A8F9F8FED4EAA /* UIKit.framework */; };
-		EB503A07F58CAC7D94A56E99CB1149DA /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = DEDC3A45D469947A745D6A9252A2AA81 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBE9DCD4BC71D41FB5B53B4D61A767D4 /* ico_check_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0437507CEBC7577A98F11AC9A380DD5F /* ico_check_select@3x.png */; };
-		ECBCABDB8AA278AD910BEB0CB1C9069A /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4758876E5C391544300CA8F90F3D39B1 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F16D22611AFB6540E3B3847BC96D5867 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C31185EAFA57982F5BB7A129AE17BE71 /* close@2x.png */; };
-		F28A2B8DAD064836DDC3DDAB93014B06 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 588C68F788810586A0098B71C00E5D0F /* vi.lproj */; };
-		F45DCDB3E8467ABA77BC680F164CE088 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FB4B55DE36C500E8AF4F3A8C1F2B932D /* it.lproj */; };
-		F6CD1580B29153A63CE86E3BCFC858EC /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4FDE7CC97F4BA98E38C7B64E6BBAF82A /* zh-Hans.lproj */; };
-		F8A3815E32C90FE6C2E4A61680300203 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B3C6160CB7ED859C39BCFECD289004 /* plus@2x.png */; };
-		F8DD6982F01B8B223C999105ACD5F963 /* CDCustomSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = EACB39EB9CE402C5110D1C0104066E75 /* CDCustomSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA4020999B7CD4F37A0B457219AA33CB /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FAFDE0A17098ACF913DEA5A388472 /* UIImage+CropRotate.m */; };
-		FC8BE37736E7B6906D21AE982831A764 /* Pods-CDChoosePhotoKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B8978C43C534D13EF883972DB830A /* Pods-CDChoosePhotoKit_Tests-dummy.m */; };
-		FE010E7F7D2FAC73F791379F4FBC3BD8 /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 05E1E4CFE376A2B55B4D62CFFD4AC3B8 /* id.lproj */; };
+		027DC7B1099A228E0F41FD40985E1B5B /* da-DK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1F4BDD34AC678909B392095389FB45FD /* da-DK.lproj */; };
+		02F44175B391A2B09396B396C0E18604 /* Pods-CDChoosePhotoKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11887579D1C8A44382B56FFAC18516F /* Pods-CDChoosePhotoKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03552530E02ED21A026720E014C0BF4F /* CDChoosePhotoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E6A3C06A834525EAA61291B13C9B9F /* CDChoosePhotoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05C9436A0AA63F2D24C62F98CAD8D63F /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E7745C5F707B17EF20B86A83BE2F35 /* TOCropOverlayView.m */; };
+		0AFACBF6801F5B266A86C07282303F52 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D9EFA36202AFE82ED70270F2A8F751 /* Photos.framework */; };
+		0BA2FA4481043A596A28B405B4395362 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78189674CD2F339A4FEC1F76F9D3661D /* TOCropView.m */; };
+		0EAC9B6B4710515778C3480BADB013E8 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FAFDE0A17098ACF913DEA5A388472 /* UIImage+CropRotate.m */; };
+		10DD49A010D0BC0281442D0E20A82E93 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = FF33D82A9F03415F20CF4D82D25AA78C /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		189D21D07AFA4D38BABF10CC7FDD060E /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FB4B55DE36C500E8AF4F3A8C1F2B932D /* it.lproj */; };
+		1DC6F1E089BCBE4EC989F2CFC7190F54 /* TOCropViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FB03CC77CD71A60BCBED094975F87B /* TOCropViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E2673719381BAF7F150E71DE679B185 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F2C99D62835C94EC63560499B27C9665 /* nl.lproj */; };
+		1EF5D9C4915677C8AA43256E28E12DAB /* CDPhotoImageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D3675B7C5E97AEAB6D48FE7C3FCC1FF /* CDPhotoImageHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20F70FB9E6B57C85025B639E4DEC3E02 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A93FDB76693419BC3453A46290523 /* TOCropScrollView.m */; };
+		22CA9E1998A31E4BCC1D243A49766448 /* CDShowBigImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C35EE5F89E47320561BF6AD11C744 /* CDShowBigImage.m */; };
+		237532CA289954516232643802A76113 /* CDCustomSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = EACB39EB9CE402C5110D1C0104066E75 /* CDCustomSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24514D59807EB656FB1E72A7872201FD /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4FDE7CC97F4BA98E38C7B64E6BBAF82A /* zh-Hans.lproj */; };
+		26CF5B1AC43BB71D2335C806F6F1B486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E308B3652C9B201BB2A90649C0E2B0C4 /* Foundation.framework */; };
+		3044392959BEAFC94AC20B3125DC5D7E /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4514BD5B85CA7835AD4CE61C6A5C55F9 /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3249664EB5A87B407188EDDDC14039BF /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE1E812071397E31AE21DFF368B781B1 /* TOCropViewControllerBundle.bundle */; };
+		32DE0F769B22C5ECC51A77A60E261455 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D35AE30E8D0E5527D49AE7E1C4B72C /* TOActivityCroppedImageProvider.m */; };
+		34D6327E9831177C2F8F76BB0911F432 /* ico_check_nomal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176033CB693950CDEA5FEA6D1555C556 /* ico_check_nomal@3x.png */; };
+		3678884B21B493640B9FB23B94C50C72 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 371E89EF0B9D7713FEACD07AE6DCA558 /* ar.lproj */; };
+		3C0DC73D4A4EF3FDDA3822D3647EF254 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 513F22D5CE6988C1BCEA7B0E6BEC6AE4 /* es.lproj */; };
+		3FC1D1089ACD826E2CD0668C13C35C12 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BEC7B5A8E59E784BD4CC29E31EBBF9 /* TOCropToolbar.m */; };
+		414C6EAE97BA77E42A758B791D45BA9A /* ico_check_nomal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B092FEE4212120D994D5711BC024BE21 /* ico_check_nomal@2x.png */; };
+		4522FE047514DD83038C70A41F66A9B6 /* ico_check_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0768693FF4E184A87F017D343E2EE8F /* ico_check_select@2x.png */; };
+		462C7345690F78E427EB327911B2A293 /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7A3F01AFF8BDD722402B67A23DE245 /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		498B46C71DECC76E9037DB2646F40B4B /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B8C167C6FAA323513964400AF27428B1 /* en.lproj */; };
+		4FFE07C3ADAE8F756F8C1431CB0C9EA2 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1079DA39DE813C846593C29BC17D7438 /* fr.lproj */; };
+		528508CC8C92EB23F871A99A34461273 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 42B75703A982A5FEB4129AFE80135ACE /* ru.lproj */; };
+		5C019D9B33CD9CD15AA7B6CD7699E88A /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B3C6160CB7ED859C39BCFECD289004 /* plus@2x.png */; };
+		5FD2A285BF44A8F76BF79C5CF701BE8D /* CDShowBigImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B169322941253E24773104D295EB83E2 /* CDShowBigImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		661D0E08AEF9522263B3CA26A1E51429 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 586B1D48BFB5504DED4D8DC693B0B8EC /* ja.lproj */; };
+		6623F8842542A9ECE98A244B4C75786F /* ico_check_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0437507CEBC7577A98F11AC9A380DD5F /* ico_check_select@3x.png */; };
+		6F14318700DD0C0DBB14DB07582F9C31 /* TOCropViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFAE6B6780B5BCA05E55511B134090B /* TOCropViewController.framework */; };
+		70AB011593F46CC4F17F2B96D2794A61 /* CDPhotoImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B942F7B5653530F4849BFB15E36498 /* CDPhotoImageHelper.m */; };
+		73C2CD9679EE50EC971796988869C526 /* CDPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8DE89FAB2490ED5872F350866A4F60 /* CDPhotoCollectionViewCell.xib */; };
+		777936CF376B928AD7035B18EBAAE551 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 552FBF62F1490912741B3E9F2963BAC0 /* pt.lproj */; };
+		85C24E3E7435C13333C55AEE23ECFBC0 /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD92FAE4D6359C344CE80B6B8045744 /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88A6F35A685DBCD7C7CB314F4F66E79D /* CDPhotoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7C5242A8907958F4B1B39BB8826FB6 /* CDPhotoListController.m */; };
+		8DD5190344D53ECB11ECB522A3E7413F /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4057EBD061527C463488DAB78792EBC7 /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F74BB24CDE569CBCBCC56AED57DB2F6 /* CDCustomSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 881E28E98A6B3C8CAF3CA45696575B13 /* CDCustomSheet.m */; };
+		939ABB691D90DE808549C8DA2F1A0918 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = B948BFF581EAD03C5F0AFF9B532D9D21 /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95ED2F90CE260406CE4379024F26653F /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 24EB493F346926F045C1D1740AAB1843 /* ko.lproj */; };
+		975C87FE0530B746A7E6A518A534F1B0 /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0F91A2232B33568190A4D97DE176CA /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99A0EBF179E043DDD345074124660217 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C31185EAFA57982F5BB7A129AE17BE71 /* close@2x.png */; };
+		9FFFDAEE260FB3DCE8988F7C67BD76A4 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 588C68F788810586A0098B71C00E5D0F /* vi.lproj */; };
+		A251D520ABAB7F75943307708A39083E /* Pods-CDChoosePhotoKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B214214965E7CF536D5D21461DEC5358 /* Pods-CDChoosePhotoKit_Example-dummy.m */; };
+		A85FD4689319794D0C9133B7EC28EA13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E308B3652C9B201BB2A90649C0E2B0C4 /* Foundation.framework */; };
+		A9E9726E7616954CD2D0266E0329F3A8 /* Pods-CDChoosePhotoKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B8978C43C534D13EF883972DB830A /* Pods-CDChoosePhotoKit_Tests-dummy.m */; };
+		AB908020B13C9A1C6AA863AC67AE3C1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E308B3652C9B201BB2A90649C0E2B0C4 /* Foundation.framework */; };
+		AD2FFDC0AB8ACE9326C40FDCBF082EDD /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE003EE6543ADF2A6A3209A097D76BC5 /* AssetsLibrary.framework */; };
+		B0073FC77A23EFFE2541852E090C64B1 /* plus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65E8C97DCFF3938F69BF547AD31625AF /* plus@3x.png */; };
+		B13E11A2296DB7F0E0EEAD66C20474BD /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B840FD92B45284556A3EB5ACB0E368C7 /* Base.lproj */; };
+		B83808EB4CB12240A5320F1BF1216237 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D07682AD310184C4B9FFAB52C9F054 /* TOCropViewControllerTransitioning.m */; };
+		BC98536BBD5CE2A5F1DD292D7B3AC2B2 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC16E97480DCA4A54553A29E2682A6B /* TOCropViewController.m */; };
+		BF09CE137DE6DE71FFDCF8AFDDA4D4A7 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4323B15883011B7ADB59C32228FC16 /* TOCroppedImageAttributes.m */; };
+		C0E4C3C12C357689D2224928997DC0C7 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3CD828636FE3D415B54C25DC317AE2AE /* tr.lproj */; };
+		C219C47FD919C4F67BA5C5B8D8A63632 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5400F43B5CF0B559B05A8F9F8FED4EAA /* UIKit.framework */; };
+		C2DECA2EBC0C15CA12E44A5E3EB6B3AD /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D68021F5D88A47DCC313208179D9B6D8 /* pl.lproj */; };
+		CA0FBD137178452F983DB76AD7A12BC0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71CE6D4413E414B6712487E247CF911 /* AddressBook.framework */; };
+		CE0B56D9D53297E343A8EE556D9360B6 /* Pods-CDChoosePhotoKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDAA4793B518DF0BA676BB9A55B25415 /* Pods-CDChoosePhotoKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D10627EFEB68DCF5A65C6B28D7A8E7BE /* CDPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C14678959908D5FAD846344E0D50EEE6 /* CDPhotoCollectionViewCell.m */; };
+		D697F1A8C3BB4C43ACBB5D2D0C7B00D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E308B3652C9B201BB2A90649C0E2B0C4 /* Foundation.framework */; };
+		D7BA1C91A093B6397ED6B7CA5A28775E /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = DEDC3A45D469947A745D6A9252A2AA81 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D81D28529A82131003B3EC79521CB3B6 /* TOCropViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7FDDB8E780E8C27E0CCEF76FF2C0B4 /* TOCropViewController-dummy.m */; };
+		DC4E09DFD1903DCFF4927C2FC39607DF /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2204AC7C6792714DFC8DEAC289EB5700 /* zh-Hant.lproj */; };
+		DE76C0E501CE66002BC1D7AC761F60BE /* CDPhotoListController.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CCF9F5CC976E676E25D41579D43628 /* CDPhotoListController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E15ED97DDB193A0F95446B929E416D8F /* CDPhotoCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F22B27E68ADD7E00A3F0480BAC8DF0 /* CDPhotoCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4088DBF9424B975A7AFFB61C29598F8 /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4758876E5C391544300CA8F90F3D39B1 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E801668C654FEEDE99111782734538F8 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 915BD7B6B0FADB224B6BF3C464241A50 /* de.lproj */; };
+		E881E6C27C9CF4EF90F037C4E5770BD7 /* CDChoosePhotoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB7F4D87E46610A838BAE0F26C0496E /* CDChoosePhotoKit-dummy.m */; };
+		F0552B5EB20C5BC806D9AA2676FEDACB /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969BA19C529C4EAE51F3E03ABC80AFC0 /* AddressBookUI.framework */; };
+		F39E05F18B1B68351EB2788981309A8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34AEDD80D87924954E0E0970FE612FD /* CoreGraphics.framework */; };
+		F9B00526DF798FE1D82350015B3500F7 /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB96FB1353C1CBE1D3CA9271D0C7B19 /* TOCropViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD96BB59F80855B4E9669AB138B4BEB9 /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AA41B03C086130F6CA7B9665BCCFE8D7 /* ms.lproj */; };
+		FDC0A523F476C052BD3A2C2F0726C8B0 /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 05E1E4CFE376A2B55B4D62CFFD4AC3B8 /* id.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2AB77EAA5C40615F7A1C778BC3E53E29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE3E2D8CC25209183234053DC2A5F6DE;
-			remoteInfo = "Pods-CDChoosePhotoKit_Example";
-		};
-		58CF77334E207794BCF8DAE1B0EC1F46 /* PBXContainerItemProxy */ = {
+		27C711D84F14F4852F19B56341C9DFD8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F3966F664F3CFAEFAB57C40FB54D3788;
 			remoteInfo = TOCropViewController;
 		};
-		6994483F4C0426E88DA1D7EB72B951BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D4D3D5AD93ADCCF3DD45A88009E48D6;
-			remoteInfo = "TOCropViewController-TOCropViewControllerBundle";
-		};
-		72B112BC0CEC3880C3107734E206567D /* PBXContainerItemProxy */ = {
+		4DBA0274FE125224295083939370C99A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F3966F664F3CFAEFAB57C40FB54D3788;
 			remoteInfo = TOCropViewController;
 		};
-		82620CAC4FC4A73358579020005424F3 /* PBXContainerItemProxy */ = {
+		99F42B52BBB488DBB569A5FA8699E106 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0894216E00F7CDFE8B94A6EB77E8019D;
 			remoteInfo = CDChoosePhotoKit;
 		};
+		BECFF9B9E291B4744EDF180231A9B2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4D3D5AD93ADCCF3DD45A88009E48D6;
+			remoteInfo = "TOCropViewController-TOCropViewControllerBundle";
+		};
+		DD9F7861D524A470703EB1EF79808E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE3E2D8CC25209183234053DC2A5F6DE;
+			remoteInfo = "Pods-CDChoosePhotoKit_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00FB03CC77CD71A60BCBED094975F87B /* TOCropViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOCropViewController-umbrella.h"; sourceTree = "<group>"; };
+		01EA96EC2FA0747299A28341CF83AFAA /* CDChoosePhotoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDChoosePhotoKit.framework; path = CDChoosePhotoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		024C4537C78530E0497EE94C6B6D4D08 /* Pods-CDChoosePhotoKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDChoosePhotoKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		0437507CEBC7577A98F11AC9A380DD5F /* ico_check_select@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ico_check_select@3x.png"; sourceTree = "<group>"; };
-		05A8FC0AC62B9A2DB6A7E6B3FE92BA67 /* CDChoosePhotoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDChoosePhotoKit.framework; path = CDChoosePhotoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E1E4CFE376A2B55B4D62CFFD4AC3B8 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = "Objective-C/TOCropViewController/Resources/id.lproj"; sourceTree = "<group>"; };
 		06A993228234325913DBAD72F584737E /* Pods-CDChoosePhotoKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDChoosePhotoKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		06D35AE30E8D0E5527D49AE7E1C4B72C /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.m"; sourceTree = "<group>"; };
@@ -137,6 +137,7 @@
 		1079DA39DE813C846593C29BC17D7438 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "Objective-C/TOCropViewController/Resources/fr.lproj"; sourceTree = "<group>"; };
 		13B3C6160CB7ED859C39BCFECD289004 /* plus@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
 		176033CB693950CDEA5FEA6D1555C556 /* ico_check_nomal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ico_check_nomal@3x.png"; sourceTree = "<group>"; };
+		19C21FB14C1FDFC55E2DC123C6000A29 /* Pods_CDChoosePhotoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDChoosePhotoKit_Example.framework; path = "Pods-CDChoosePhotoKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A178B9210093B55B273426A209B8984 /* CDChoosePhotoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDChoosePhotoKit.xcconfig; sourceTree = "<group>"; };
 		1A4323B15883011B7ADB59C32228FC16 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCroppedImageAttributes.m; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.m"; sourceTree = "<group>"; };
 		1CFC322279D55A818C82BCA9AFA706E1 /* ResourceBundle-TOCropViewControllerBundle-TOCropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TOCropViewControllerBundle-TOCropViewController-Info.plist"; sourceTree = "<group>"; };
@@ -146,6 +147,7 @@
 		23E7745C5F707B17EF20B86A83BE2F35 /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropOverlayView.m; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.m"; sourceTree = "<group>"; };
 		24EB493F346926F045C1D1740AAB1843 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = "Objective-C/TOCropViewController/Resources/ko.lproj"; sourceTree = "<group>"; };
 		2F0C749685DB493763F15448DA485FA3 /* CDChoosePhotoKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CDChoosePhotoKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		349B65667D23DB2758786FFD20D2EA3B /* Pods_CDChoosePhotoKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDChoosePhotoKit_Tests.framework; path = "Pods-CDChoosePhotoKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		371E89EF0B9D7713FEACD07AE6DCA558 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = "Objective-C/TOCropViewController/Resources/ar.lproj"; sourceTree = "<group>"; };
 		3CD828636FE3D415B54C25DC317AE2AE /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = "Objective-C/TOCropViewController/Resources/tr.lproj"; sourceTree = "<group>"; };
 		3E39194C508A102F54311A71B48A93B5 /* Pods-CDChoosePhotoKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDChoosePhotoKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,26 +176,23 @@
 		746A9724FD3AC674B14AFDD2674CB0C6 /* Pods-CDChoosePhotoKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CDChoosePhotoKit_Tests.modulemap"; sourceTree = "<group>"; };
 		779C35EE5F89E47320561BF6AD11C744 /* CDShowBigImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDShowBigImage.m; sourceTree = "<group>"; };
 		78189674CD2F339A4FEC1F76F9D3661D /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = "Objective-C/TOCropViewController/Views/TOCropView.m"; sourceTree = "<group>"; };
+		7862C607B7BE0510C2D65193F9B4B4F9 /* TOCropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TOCropViewController.framework; path = TOCropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3548766F4518FB3B2B1A7D9801926F /* TOCropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TOCropViewController-Info.plist"; sourceTree = "<group>"; };
-		7B4F7A975D3C0A2C90A1A5F5FCFF60DF /* Pods_CDChoosePhotoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDChoosePhotoKit_Example.framework; path = "Pods-CDChoosePhotoKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82013D6300827FC5F4B891565B0048CF /* Pods-CDChoosePhotoKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDChoosePhotoKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		84B942F7B5653530F4849BFB15E36498 /* CDPhotoImageHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDPhotoImageHelper.m; sourceTree = "<group>"; };
 		84CB3A5BE5FE4394FEFAF6596032B753 /* Pods-CDChoosePhotoKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDChoosePhotoKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		881E28E98A6B3C8CAF3CA45696575B13 /* CDCustomSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDCustomSheet.m; sourceTree = "<group>"; };
 		8B7A3F01AFF8BDD722402B67A23DE245 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.h"; sourceTree = "<group>"; };
 		915BD7B6B0FADB224B6BF3C464241A50 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "Objective-C/TOCropViewController/Resources/de.lproj"; sourceTree = "<group>"; };
-		92CC9D63089669AEE379028246EB9BB4 /* TOCropViewControllerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TOCropViewControllerBundle.bundle; path = "TOCropViewController-TOCropViewControllerBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E18E90D6ACE0085272F774FFA2F515 /* TOCropViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOCropViewController-prefix.pch"; sourceTree = "<group>"; };
 		969BA19C529C4EAE51F3E03ABC80AFC0 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
 		96D07682AD310184C4B9FFAB52C9F054 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.m"; sourceTree = "<group>"; };
-		99D9BD523AE31D2791EE3B5AFCEB8089 /* TOCropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TOCropViewController.framework; path = TOCropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A93FDB76693419BC3453A46290523 /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A11887579D1C8A44382B56FFAC18516F /* Pods-CDChoosePhotoKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDChoosePhotoKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		A4C73319B8E2090924D21B797E85037E /* CDChoosePhotoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CDChoosePhotoKit-Info.plist"; sourceTree = "<group>"; };
 		A71CE6D4413E414B6712487E247CF911 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
 		A7F60DDD941DDA178D466CD58881C90F /* Pods-CDChoosePhotoKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDChoosePhotoKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A97190D9EEC1F6A18FB005403B4CC260 /* Pods_CDChoosePhotoKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDChoosePhotoKit_Tests.framework; path = "Pods-CDChoosePhotoKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA41B03C086130F6CA7B9665BCCFE8D7 /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ms.lproj; path = "Objective-C/TOCropViewController/Resources/ms.lproj"; sourceTree = "<group>"; };
 		B092FEE4212120D994D5711BC024BE21 /* ico_check_nomal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ico_check_nomal@2x.png"; sourceTree = "<group>"; };
 		B169322941253E24773104D295EB83E2 /* CDShowBigImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDShowBigImage.h; sourceTree = "<group>"; };
@@ -227,54 +226,55 @@
 		FB4B55DE36C500E8AF4F3A8C1F2B932D /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = "Objective-C/TOCropViewController/Resources/it.lproj"; sourceTree = "<group>"; };
 		FBC2234E0A2A67B9AE75832CE31508D1 /* Pods-CDChoosePhotoKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDChoosePhotoKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FE003EE6543ADF2A6A3209A097D76BC5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		FE1E812071397E31AE21DFF368B781B1 /* TOCropViewControllerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TOCropViewControllerBundle.bundle; path = "TOCropViewController-TOCropViewControllerBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE387FB4F170C4926509179A4E6F6125 /* Pods-CDChoosePhotoKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDChoosePhotoKit_Example-Info.plist"; sourceTree = "<group>"; };
 		FF33D82A9F03415F20CF4D82D25AA78C /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		822215575E9471E816F0F290EDA45B3D /* Frameworks */ = {
+		0F3ABE5090BE230818AF53C2289BE935 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B5E17757E7661B5D24E3622D86C476 /* Foundation.framework in Frameworks */,
+				CA0FBD137178452F983DB76AD7A12BC0 /* AddressBook.framework in Frameworks */,
+				F0552B5EB20C5BC806D9AA2676FEDACB /* AddressBookUI.framework in Frameworks */,
+				AD2FFDC0AB8ACE9326C40FDCBF082EDD /* AssetsLibrary.framework in Frameworks */,
+				F39E05F18B1B68351EB2788981309A8B /* CoreGraphics.framework in Frameworks */,
+				26CF5B1AC43BB71D2335C806F6F1B486 /* Foundation.framework in Frameworks */,
+				0AFACBF6801F5B266A86C07282303F52 /* Photos.framework in Frameworks */,
+				6F14318700DD0C0DBB14DB07582F9C31 /* TOCropViewController.framework in Frameworks */,
+				C219C47FD919C4F67BA5C5B8D8A63632 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D86C424FE06653F384FBF80E05C9122 /* Frameworks */ = {
+		3E3C98C402C8A4593840D2455CA3E14A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85FD4689319794D0C9133B7EC28EA13 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB0ED57BF3842037D968C1547E25D169 /* Frameworks */ = {
+		5E1DF0DA2F4D8726ED420750704391AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90ACB2813757B2E306B40A6975379910 /* Foundation.framework in Frameworks */,
+				D697F1A8C3BB4C43ACBB5D2D0C7B00D0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAAD6D0BFF284F96547C840EA264DD2D /* Frameworks */ = {
+		93B9F597287942CA810D1AC3E825200C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77787BDE463A96D973C11485DBB885D9 /* Foundation.framework in Frameworks */,
+				AB908020B13C9A1C6AA863AC67AE3C1E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F39A36154C617323FD5E37548E4B6CA1 /* Frameworks */ = {
+		E154F19422A4292093AC75FA4BDBFF42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				903423A7262E7E29335A91EA4B063116 /* AddressBook.framework in Frameworks */,
-				22786B58E5606F602DC89EEA5384DDA1 /* AddressBookUI.framework in Frameworks */,
-				D25B19A85816B9359E7D41A9E05F5686 /* AssetsLibrary.framework in Frameworks */,
-				2FA47DCC0A4285594B819DAF7D10E2BE /* CoreGraphics.framework in Frameworks */,
-				C5C34D6725A098B0553EDAD8D93EE325 /* Foundation.framework in Frameworks */,
-				89B55E66BD687F9627F61DCF34E05B90 /* Photos.framework in Frameworks */,
-				5EA3458E1B86EAF8FB10DE6B2CF8FFE5 /* TOCropViewController.framework in Frameworks */,
-				E71BEF794CB83C053BE471492CDBBD1E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,11 +486,11 @@
 		A5B4AFE131E25FFAD63BE91A4DCF4B73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05A8FC0AC62B9A2DB6A7E6B3FE92BA67 /* CDChoosePhotoKit.framework */,
-				7B4F7A975D3C0A2C90A1A5F5FCFF60DF /* Pods_CDChoosePhotoKit_Example.framework */,
-				A97190D9EEC1F6A18FB005403B4CC260 /* Pods_CDChoosePhotoKit_Tests.framework */,
-				99D9BD523AE31D2791EE3B5AFCEB8089 /* TOCropViewController.framework */,
-				92CC9D63089669AEE379028246EB9BB4 /* TOCropViewControllerBundle.bundle */,
+				01EA96EC2FA0747299A28341CF83AFAA /* CDChoosePhotoKit.framework */,
+				19C21FB14C1FDFC55E2DC123C6000A29 /* Pods_CDChoosePhotoKit_Example.framework */,
+				349B65667D23DB2758786FFD20D2EA3B /* Pods_CDChoosePhotoKit_Tests.framework */,
+				7862C607B7BE0510C2D65193F9B4B4F9 /* TOCropViewController.framework */,
+				FE1E812071397E31AE21DFF368B781B1 /* TOCropViewControllerBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -574,50 +574,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0DCF31643F1E717DFD72708E908F2B44 /* Headers */ = {
+		1B8C255C8A023D0B021BBFD3746A72E3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F17EE8C7C5DE195281D3088431722F7 /* TOActivityCroppedImageProvider.h in Headers */,
-				ECBCABDB8AA278AD910BEB0CB1C9069A /* TOCropOverlayView.h in Headers */,
-				B7698A9644824C4AEE720347C01D1465 /* TOCroppedImageAttributes.h in Headers */,
-				ADA682563E157F3C35E4C8518888408A /* TOCropScrollView.h in Headers */,
-				6F21185107587201DD1F1D94ADAEE994 /* TOCropToolbar.h in Headers */,
-				7B986A9AC105DAFD02878CFDC1B9E63E /* TOCropView.h in Headers */,
-				B3955BA1825695F2668833D85D88A169 /* TOCropViewConstants.h in Headers */,
-				0BC89CA3E09B334B79764BA51887653A /* TOCropViewController-umbrella.h in Headers */,
-				26D1C8D73628BC36ED2ED38612751A9F /* TOCropViewController.h in Headers */,
-				EB503A07F58CAC7D94A56E99CB1149DA /* TOCropViewControllerTransitioning.h in Headers */,
-				7CE4F9BC49F9DB74D8DF4C693E9E0A67 /* UIImage+CropRotate.h in Headers */,
+				939ABB691D90DE808549C8DA2F1A0918 /* TOActivityCroppedImageProvider.h in Headers */,
+				E4088DBF9424B975A7AFFB61C29598F8 /* TOCropOverlayView.h in Headers */,
+				462C7345690F78E427EB327911B2A293 /* TOCroppedImageAttributes.h in Headers */,
+				975C87FE0530B746A7E6A518A534F1B0 /* TOCropScrollView.h in Headers */,
+				3044392959BEAFC94AC20B3125DC5D7E /* TOCropToolbar.h in Headers */,
+				8DD5190344D53ECB11ECB522A3E7413F /* TOCropView.h in Headers */,
+				F9B00526DF798FE1D82350015B3500F7 /* TOCropViewConstants.h in Headers */,
+				1DC6F1E089BCBE4EC989F2CFC7190F54 /* TOCropViewController-umbrella.h in Headers */,
+				85C24E3E7435C13333C55AEE23ECFBC0 /* TOCropViewController.h in Headers */,
+				D7BA1C91A093B6397ED6B7CA5A28775E /* TOCropViewControllerTransitioning.h in Headers */,
+				10DD49A010D0BC0281442D0E20A82E93 /* UIImage+CropRotate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		211FF894F9371EFAAECE73E8D2E0909C /* Headers */ = {
+		27A7B540120387F4FCDAFF90FD24CF02 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0908FDAD4409C17981382A669D139C66 /* CDChoosePhotoKit-umbrella.h in Headers */,
-				F8DD6982F01B8B223C999105ACD5F963 /* CDCustomSheet.h in Headers */,
-				D4260FFC760698F38844A044D58FF626 /* CDPhotoCollectionViewCell.h in Headers */,
-				AEE1C98B0A7C1E37FECF599EA223F85F /* CDPhotoImageHelper.h in Headers */,
-				232B5E34191BD2FD6A41DFD1C99D356A /* CDPhotoListController.h in Headers */,
-				50EE81AC17E3E3D772DE953D575A8A6E /* CDShowBigImage.h in Headers */,
+				03552530E02ED21A026720E014C0BF4F /* CDChoosePhotoKit-umbrella.h in Headers */,
+				237532CA289954516232643802A76113 /* CDCustomSheet.h in Headers */,
+				E15ED97DDB193A0F95446B929E416D8F /* CDPhotoCollectionViewCell.h in Headers */,
+				1EF5D9C4915677C8AA43256E28E12DAB /* CDPhotoImageHelper.h in Headers */,
+				DE76C0E501CE66002BC1D7AC761F60BE /* CDPhotoListController.h in Headers */,
+				5FD2A285BF44A8F76BF79C5CF701BE8D /* CDShowBigImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9400212697027EED93DB95A12CEBCC8D /* Headers */ = {
+		7C57F9E11C23BDBE1129F27C58C0A863 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60BBCD18AB5AC0CA4F11B84BBE7CCEB6 /* Pods-CDChoosePhotoKit_Tests-umbrella.h in Headers */,
+				CE0B56D9D53297E343A8EE556D9360B6 /* Pods-CDChoosePhotoKit_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB9781803B91DCD94CF9DE7E25845B3A /* Headers */ = {
+		A579FCC35DB85B336B2161E49CFF0371 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				987417E4BDE1A50BB600806E1B864C1A /* Pods-CDChoosePhotoKit_Example-umbrella.h in Headers */,
+				02F44175B391A2B09396B396C0E18604 /* Pods-CDChoosePhotoKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,30 +626,30 @@
 /* Begin PBXNativeTarget section */
 		0894216E00F7CDFE8B94A6EB77E8019D /* CDChoosePhotoKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EDC53F30ED98FE28E1806FC2AD32087 /* Build configuration list for PBXNativeTarget "CDChoosePhotoKit" */;
+			buildConfigurationList = C9052878DEFE9FA88FED3D7905EE1D8F /* Build configuration list for PBXNativeTarget "CDChoosePhotoKit" */;
 			buildPhases = (
-				211FF894F9371EFAAECE73E8D2E0909C /* Headers */,
-				BAD56A5E78277FD1254E8C5D5E7E3842 /* Sources */,
-				F39A36154C617323FD5E37548E4B6CA1 /* Frameworks */,
-				9C0856332415A040756CE9AABD6500C5 /* Resources */,
+				27A7B540120387F4FCDAFF90FD24CF02 /* Headers */,
+				6C2DB520E1FD7D6B1F9E884EFA68C803 /* Sources */,
+				0F3ABE5090BE230818AF53C2289BE935 /* Frameworks */,
+				15E76FDAAE4FDAC49BD740C93028C858 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C97C460AA7E9929A8E5A8F1FBBC71DF8 /* PBXTargetDependency */,
+				C5110CD54436D6959C46B3886EF47EC6 /* PBXTargetDependency */,
 			);
 			name = CDChoosePhotoKit;
 			productName = CDChoosePhotoKit;
-			productReference = 05A8FC0AC62B9A2DB6A7E6B3FE92BA67 /* CDChoosePhotoKit.framework */;
+			productReference = 01EA96EC2FA0747299A28341CF83AFAA /* CDChoosePhotoKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2D4D3D5AD93ADCCF3DD45A88009E48D6 /* TOCropViewController-TOCropViewControllerBundle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 187869F28F2C8A594921A7589C408DAA /* Build configuration list for PBXNativeTarget "TOCropViewController-TOCropViewControllerBundle" */;
+			buildConfigurationList = B87BEE77552EF36FD38190B8719267D5 /* Build configuration list for PBXNativeTarget "TOCropViewController-TOCropViewControllerBundle" */;
 			buildPhases = (
-				941FE5B11968DF6E2AB2166A9ECB28AE /* Sources */,
-				8D86C424FE06653F384FBF80E05C9122 /* Frameworks */,
-				9082535C8768474AB0F3354B71F71132 /* Resources */,
+				14145BD4338B10CAB324F4EFF3469260 /* Sources */,
+				E154F19422A4292093AC75FA4BDBFF42 /* Frameworks */,
+				A210C62A6AA03CBE12FD1EA79E0DDAFA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -657,65 +657,65 @@
 			);
 			name = "TOCropViewController-TOCropViewControllerBundle";
 			productName = "TOCropViewController-TOCropViewControllerBundle";
-			productReference = 92CC9D63089669AEE379028246EB9BB4 /* TOCropViewControllerBundle.bundle */;
+			productReference = FE1E812071397E31AE21DFF368B781B1 /* TOCropViewControllerBundle.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		3763DE13E411EA6A25879EB4B2B3E507 /* Pods-CDChoosePhotoKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEF0FB2C0897381B5E1EF5F6EDA651FF /* Build configuration list for PBXNativeTarget "Pods-CDChoosePhotoKit_Tests" */;
+			buildConfigurationList = D00C2053847E945C9FEC4DF85C266CA7 /* Build configuration list for PBXNativeTarget "Pods-CDChoosePhotoKit_Tests" */;
 			buildPhases = (
-				9400212697027EED93DB95A12CEBCC8D /* Headers */,
-				09D11C537BE0E51D1890B219D9879A1B /* Sources */,
-				AB0ED57BF3842037D968C1547E25D169 /* Frameworks */,
-				3D81F91066350F8B19EDB13FE972C00A /* Resources */,
+				7C57F9E11C23BDBE1129F27C58C0A863 /* Headers */,
+				ADB5E7C8A61E292E15AA1685A640E0E6 /* Sources */,
+				93B9F597287942CA810D1AC3E825200C /* Frameworks */,
+				584162900B91FA97CAA0FA73FE8790A3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4023B1A976B3BD9CA50F26ABABC44E40 /* PBXTargetDependency */,
+				F198B66EEFEB813AB7C7FF92D6F10CAD /* PBXTargetDependency */,
 			);
 			name = "Pods-CDChoosePhotoKit_Tests";
 			productName = "Pods-CDChoosePhotoKit_Tests";
-			productReference = A97190D9EEC1F6A18FB005403B4CC260 /* Pods_CDChoosePhotoKit_Tests.framework */;
+			productReference = 349B65667D23DB2758786FFD20D2EA3B /* Pods_CDChoosePhotoKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CE3E2D8CC25209183234053DC2A5F6DE /* Pods-CDChoosePhotoKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6E787088ACEB584110F505FFF8F86D7 /* Build configuration list for PBXNativeTarget "Pods-CDChoosePhotoKit_Example" */;
+			buildConfigurationList = 6B16877918B1F18995D7EADE9D6E89EA /* Build configuration list for PBXNativeTarget "Pods-CDChoosePhotoKit_Example" */;
 			buildPhases = (
-				EB9781803B91DCD94CF9DE7E25845B3A /* Headers */,
-				37E75E5A88CFC2A3152C8DE0A6C34D92 /* Sources */,
-				822215575E9471E816F0F290EDA45B3D /* Frameworks */,
-				63D15C07BA0B66F6E23262D15C2B0059 /* Resources */,
+				A579FCC35DB85B336B2161E49CFF0371 /* Headers */,
+				FCA90E659A24F9AF177C890C7A688700 /* Sources */,
+				5E1DF0DA2F4D8726ED420750704391AC /* Frameworks */,
+				32E4BFB6FF1ED8A7DBD993FC9BD7AE8E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8156461B86A8875D726F903CE2FF9857 /* PBXTargetDependency */,
-				D060D9E715E09597FC4C8C664DE79DD6 /* PBXTargetDependency */,
+				4F15CCA67F9C143468B9283441A731D1 /* PBXTargetDependency */,
+				C2744D9EA98462833CC1071CE89A53D7 /* PBXTargetDependency */,
 			);
 			name = "Pods-CDChoosePhotoKit_Example";
 			productName = "Pods-CDChoosePhotoKit_Example";
-			productReference = 7B4F7A975D3C0A2C90A1A5F5FCFF60DF /* Pods_CDChoosePhotoKit_Example.framework */;
+			productReference = 19C21FB14C1FDFC55E2DC123C6000A29 /* Pods_CDChoosePhotoKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F3966F664F3CFAEFAB57C40FB54D3788 /* TOCropViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F77D796BB2894D711F488B7FB3A4432 /* Build configuration list for PBXNativeTarget "TOCropViewController" */;
+			buildConfigurationList = 55505F1660DFA95E122D729DA4FFD6BF /* Build configuration list for PBXNativeTarget "TOCropViewController" */;
 			buildPhases = (
-				0DCF31643F1E717DFD72708E908F2B44 /* Headers */,
-				1A87E2C1BEBDB89842D484149ACBAF0A /* Sources */,
-				CAAD6D0BFF284F96547C840EA264DD2D /* Frameworks */,
-				CDE27627C1677C946D44CD4DDF3AF010 /* Resources */,
+				1B8C255C8A023D0B021BBFD3746A72E3 /* Headers */,
+				CBF2FD6B6F90971E9E94C21B625C57D0 /* Sources */,
+				3E3C98C402C8A4593840D2455CA3E14A /* Frameworks */,
+				4B9822034B1869ABC31511012F65F5D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				59CFDDEFBDDD13CD057FFF89A76B8346 /* PBXTargetDependency */,
+				F85586EA686753D563D0E6F333CBA2C9 /* PBXTargetDependency */,
 			);
 			name = TOCropViewController;
 			productName = TOCropViewController;
-			productReference = 99D9BD523AE31D2791EE3B5AFCEB8089 /* TOCropViewController.framework */;
+			productReference = 7862C607B7BE0510C2D65193F9B4B4F9 /* TOCropViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -724,8 +724,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -749,165 +749,195 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3D81F91066350F8B19EDB13FE972C00A /* Resources */ = {
+		15E76FDAAE4FDAC49BD740C93028C858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C2CD9679EE50EC971796988869C526 /* CDPhotoCollectionViewCell.xib in Resources */,
+				99A0EBF179E043DDD345074124660217 /* close@2x.png in Resources */,
+				414C6EAE97BA77E42A758B791D45BA9A /* ico_check_nomal@2x.png in Resources */,
+				34D6327E9831177C2F8F76BB0911F432 /* ico_check_nomal@3x.png in Resources */,
+				4522FE047514DD83038C70A41F66A9B6 /* ico_check_select@2x.png in Resources */,
+				6623F8842542A9ECE98A244B4C75786F /* ico_check_select@3x.png in Resources */,
+				5C019D9B33CD9CD15AA7B6CD7699E88A /* plus@2x.png in Resources */,
+				B0073FC77A23EFFE2541852E090C64B1 /* plus@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E4BFB6FF1ED8A7DBD993FC9BD7AE8E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63D15C07BA0B66F6E23262D15C2B0059 /* Resources */ = {
+		4B9822034B1869ABC31511012F65F5D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3249664EB5A87B407188EDDDC14039BF /* TOCropViewControllerBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584162900B91FA97CAA0FA73FE8790A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9082535C8768474AB0F3354B71F71132 /* Resources */ = {
+		A210C62A6AA03CBE12FD1EA79E0DDAFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D63127FD13D9B8ECD0819E53CFDA05E /* ar.lproj in Resources */,
-				317E83FC0B9126EEA15D72C476676E2E /* Base.lproj in Resources */,
-				57EDBA16308084072331DA5367BCC26C /* da-DK.lproj in Resources */,
-				C136FBC65EC5686DB71803AEFEC417D6 /* de.lproj in Resources */,
-				68B001E3EB52D5082380147F5ABAFFE2 /* en.lproj in Resources */,
-				A218E2AA89BFDCC4C8E08B1AEB0B530F /* es.lproj in Resources */,
-				0494A94D9F446D2DA577DBD8185B4ADB /* fr.lproj in Resources */,
-				FE010E7F7D2FAC73F791379F4FBC3BD8 /* id.lproj in Resources */,
-				F45DCDB3E8467ABA77BC680F164CE088 /* it.lproj in Resources */,
-				05C76836787585B825DF3F946D34DA94 /* ja.lproj in Resources */,
-				B34FB6AE8D2A0A2F414EE29C76A97952 /* ko.lproj in Resources */,
-				924D289122208A927579A88EC8CE48AC /* ms.lproj in Resources */,
-				80A1B44DC8EAD0F1BFF55F0FA67006BE /* nl.lproj in Resources */,
-				816D8A44B44287CFCF03A04936FF6CB7 /* pl.lproj in Resources */,
-				BA1666D0280D919641CB253D66580BBD /* pt.lproj in Resources */,
-				10288EC322C667C6B53CA63A639735A1 /* ru.lproj in Resources */,
-				393A281E5E8B2FED44B17357D7765B29 /* tr.lproj in Resources */,
-				F28A2B8DAD064836DDC3DDAB93014B06 /* vi.lproj in Resources */,
-				F6CD1580B29153A63CE86E3BCFC858EC /* zh-Hans.lproj in Resources */,
-				5D51546CB9DF495810C07289BC41353A /* zh-Hant.lproj in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C0856332415A040756CE9AABD6500C5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C34DFDD30B4F43E7A3BAC4891C16FE5B /* CDPhotoCollectionViewCell.xib in Resources */,
-				F16D22611AFB6540E3B3847BC96D5867 /* close@2x.png in Resources */,
-				2CA97408AB322659EC0ED8D47D578C85 /* ico_check_nomal@2x.png in Resources */,
-				003EE954AAC1F95C1AAE137FCB06DB8E /* ico_check_nomal@3x.png in Resources */,
-				26DECB8C10965F33AC7F6078783DD963 /* ico_check_select@2x.png in Resources */,
-				EBE9DCD4BC71D41FB5B53B4D61A767D4 /* ico_check_select@3x.png in Resources */,
-				F8A3815E32C90FE6C2E4A61680300203 /* plus@2x.png in Resources */,
-				CAD1E27D83D24BC20160E266FB37A09A /* plus@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDE27627C1677C946D44CD4DDF3AF010 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				33A26FAC0EE353893F1B878E1449FAF7 /* TOCropViewControllerBundle.bundle in Resources */,
+				3678884B21B493640B9FB23B94C50C72 /* ar.lproj in Resources */,
+				B13E11A2296DB7F0E0EEAD66C20474BD /* Base.lproj in Resources */,
+				027DC7B1099A228E0F41FD40985E1B5B /* da-DK.lproj in Resources */,
+				E801668C654FEEDE99111782734538F8 /* de.lproj in Resources */,
+				498B46C71DECC76E9037DB2646F40B4B /* en.lproj in Resources */,
+				3C0DC73D4A4EF3FDDA3822D3647EF254 /* es.lproj in Resources */,
+				4FFE07C3ADAE8F756F8C1431CB0C9EA2 /* fr.lproj in Resources */,
+				FDC0A523F476C052BD3A2C2F0726C8B0 /* id.lproj in Resources */,
+				189D21D07AFA4D38BABF10CC7FDD060E /* it.lproj in Resources */,
+				661D0E08AEF9522263B3CA26A1E51429 /* ja.lproj in Resources */,
+				95ED2F90CE260406CE4379024F26653F /* ko.lproj in Resources */,
+				FD96BB59F80855B4E9669AB138B4BEB9 /* ms.lproj in Resources */,
+				1E2673719381BAF7F150E71DE679B185 /* nl.lproj in Resources */,
+				C2DECA2EBC0C15CA12E44A5E3EB6B3AD /* pl.lproj in Resources */,
+				777936CF376B928AD7035B18EBAAE551 /* pt.lproj in Resources */,
+				528508CC8C92EB23F871A99A34461273 /* ru.lproj in Resources */,
+				C0E4C3C12C357689D2224928997DC0C7 /* tr.lproj in Resources */,
+				9FFFDAEE260FB3DCE8988F7C67BD76A4 /* vi.lproj in Resources */,
+				24514D59807EB656FB1E72A7872201FD /* zh-Hans.lproj in Resources */,
+				DC4E09DFD1903DCFF4927C2FC39607DF /* zh-Hant.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		09D11C537BE0E51D1890B219D9879A1B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC8BE37736E7B6906D21AE982831A764 /* Pods-CDChoosePhotoKit_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A87E2C1BEBDB89842D484149ACBAF0A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				469740918B73B5023B7894FB52E88BD9 /* TOActivityCroppedImageProvider.m in Sources */,
-				776B24B131BA8570C0F07337F1FD48B0 /* TOCropOverlayView.m in Sources */,
-				318EA1EFC2F9FB05B167170BA204B71C /* TOCroppedImageAttributes.m in Sources */,
-				1DABD8282C04A382F27DB0600604EBCB /* TOCropScrollView.m in Sources */,
-				E6BC724ABC77DAADE4BA89EE25D1C1AC /* TOCropToolbar.m in Sources */,
-				7149DA980CC7F33AFF2FB9EFEB12E4D4 /* TOCropView.m in Sources */,
-				7774F452787CE46C25CB33ADDBFCB6DB /* TOCropViewController-dummy.m in Sources */,
-				0090FD516D4FEEDA1F078062741AA962 /* TOCropViewController.m in Sources */,
-				7575F86FB8BE4724090F1E8561583CF0 /* TOCropViewControllerTransitioning.m in Sources */,
-				FA4020999B7CD4F37A0B457219AA33CB /* UIImage+CropRotate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37E75E5A88CFC2A3152C8DE0A6C34D92 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF9F59078B8B1408E5D1F6EFF1D0CF61 /* Pods-CDChoosePhotoKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		941FE5B11968DF6E2AB2166A9ECB28AE /* Sources */ = {
+		14145BD4338B10CAB324F4EFF3469260 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAD56A5E78277FD1254E8C5D5E7E3842 /* Sources */ = {
+		6C2DB520E1FD7D6B1F9E884EFA68C803 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3498955261F6CDBFCBF98C72FD259AFD /* CDChoosePhotoKit-dummy.m in Sources */,
-				9C42E5A6E7D6B02DA42117C47BDD9A61 /* CDCustomSheet.m in Sources */,
-				CF0EC0A4C6AC96F9A83C7FC2874DE2D3 /* CDPhotoCollectionViewCell.m in Sources */,
-				2EB2A43B4C61CB5906400C550B16C573 /* CDPhotoImageHelper.m in Sources */,
-				DF79216383A6B228EEADB4601C21994A /* CDPhotoListController.m in Sources */,
-				470BEA2D2543A3F3CCBF8A11D7705875 /* CDShowBigImage.m in Sources */,
+				E881E6C27C9CF4EF90F037C4E5770BD7 /* CDChoosePhotoKit-dummy.m in Sources */,
+				8F74BB24CDE569CBCBCC56AED57DB2F6 /* CDCustomSheet.m in Sources */,
+				D10627EFEB68DCF5A65C6B28D7A8E7BE /* CDPhotoCollectionViewCell.m in Sources */,
+				70AB011593F46CC4F17F2B96D2794A61 /* CDPhotoImageHelper.m in Sources */,
+				88A6F35A685DBCD7C7CB314F4F66E79D /* CDPhotoListController.m in Sources */,
+				22CA9E1998A31E4BCC1D243A49766448 /* CDShowBigImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB5E7C8A61E292E15AA1685A640E0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E9726E7616954CD2D0266E0329F3A8 /* Pods-CDChoosePhotoKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF2FD6B6F90971E9E94C21B625C57D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DE0F769B22C5ECC51A77A60E261455 /* TOActivityCroppedImageProvider.m in Sources */,
+				05C9436A0AA63F2D24C62F98CAD8D63F /* TOCropOverlayView.m in Sources */,
+				BF09CE137DE6DE71FFDCF8AFDDA4D4A7 /* TOCroppedImageAttributes.m in Sources */,
+				20F70FB9E6B57C85025B639E4DEC3E02 /* TOCropScrollView.m in Sources */,
+				3FC1D1089ACD826E2CD0668C13C35C12 /* TOCropToolbar.m in Sources */,
+				0BA2FA4481043A596A28B405B4395362 /* TOCropView.m in Sources */,
+				D81D28529A82131003B3EC79521CB3B6 /* TOCropViewController-dummy.m in Sources */,
+				BC98536BBD5CE2A5F1DD292D7B3AC2B2 /* TOCropViewController.m in Sources */,
+				B83808EB4CB12240A5320F1BF1216237 /* TOCropViewControllerTransitioning.m in Sources */,
+				0EAC9B6B4710515778C3480BADB013E8 /* UIImage+CropRotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA90E659A24F9AF177C890C7A688700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A251D520ABAB7F75943307708A39083E /* Pods-CDChoosePhotoKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4023B1A976B3BD9CA50F26ABABC44E40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CDChoosePhotoKit_Example";
-			target = CE3E2D8CC25209183234053DC2A5F6DE /* Pods-CDChoosePhotoKit_Example */;
-			targetProxy = 2AB77EAA5C40615F7A1C778BC3E53E29 /* PBXContainerItemProxy */;
-		};
-		59CFDDEFBDDD13CD057FFF89A76B8346 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TOCropViewController-TOCropViewControllerBundle";
-			target = 2D4D3D5AD93ADCCF3DD45A88009E48D6 /* TOCropViewController-TOCropViewControllerBundle */;
-			targetProxy = 6994483F4C0426E88DA1D7EB72B951BC /* PBXContainerItemProxy */;
-		};
-		8156461B86A8875D726F903CE2FF9857 /* PBXTargetDependency */ = {
+		4F15CCA67F9C143468B9283441A731D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CDChoosePhotoKit;
 			target = 0894216E00F7CDFE8B94A6EB77E8019D /* CDChoosePhotoKit */;
-			targetProxy = 82620CAC4FC4A73358579020005424F3 /* PBXContainerItemProxy */;
+			targetProxy = 99F42B52BBB488DBB569A5FA8699E106 /* PBXContainerItemProxy */;
 		};
-		C97C460AA7E9929A8E5A8F1FBBC71DF8 /* PBXTargetDependency */ = {
+		C2744D9EA98462833CC1071CE89A53D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TOCropViewController;
 			target = F3966F664F3CFAEFAB57C40FB54D3788 /* TOCropViewController */;
-			targetProxy = 72B112BC0CEC3880C3107734E206567D /* PBXContainerItemProxy */;
+			targetProxy = 27C711D84F14F4852F19B56341C9DFD8 /* PBXContainerItemProxy */;
 		};
-		D060D9E715E09597FC4C8C664DE79DD6 /* PBXTargetDependency */ = {
+		C5110CD54436D6959C46B3886EF47EC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TOCropViewController;
 			target = F3966F664F3CFAEFAB57C40FB54D3788 /* TOCropViewController */;
-			targetProxy = 58CF77334E207794BCF8DAE1B0EC1F46 /* PBXContainerItemProxy */;
+			targetProxy = 4DBA0274FE125224295083939370C99A /* PBXContainerItemProxy */;
+		};
+		F198B66EEFEB813AB7C7FF92D6F10CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CDChoosePhotoKit_Example";
+			target = CE3E2D8CC25209183234053DC2A5F6DE /* Pods-CDChoosePhotoKit_Example */;
+			targetProxy = DD9F7861D524A470703EB1EF79808E05 /* PBXContainerItemProxy */;
+		};
+		F85586EA686753D563D0E6F333CBA2C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TOCropViewController-TOCropViewControllerBundle";
+			target = 2D4D3D5AD93ADCCF3DD45A88009E48D6 /* TOCropViewController-TOCropViewControllerBundle */;
+			targetProxy = BECFF9B9E291B4744EDF180231A9B2BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		240DE48E1A9269D96727727BC6E35B3C /* Debug */ = {
+		0448FD502B744E3815978E2A2DB81E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E39194C508A102F54311A71B48A93B5 /* Pods-CDChoosePhotoKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 1A178B9210093B55B273426A209B8984 /* CDChoosePhotoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDChoosePhotoKit/CDChoosePhotoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDChoosePhotoKit/CDChoosePhotoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDChoosePhotoKit/CDChoosePhotoKit.modulemap";
+				PRODUCT_MODULE_NAME = CDChoosePhotoKit;
+				PRODUCT_NAME = CDChoosePhotoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		053F553E8D2F9B6337B5653223050249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBC2234E0A2A67B9AE75832CE31508D1 /* Pods-CDChoosePhotoKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -919,12 +949,46 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CDChoosePhotoKit_Example/Pods-CDChoosePhotoKit_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDChoosePhotoKit_Tests/Pods-CDChoosePhotoKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CDChoosePhotoKit_Example/Pods-CDChoosePhotoKit_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CDChoosePhotoKit_Tests/Pods-CDChoosePhotoKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A4621AD57FCE2DD3333C3E6EA75E6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A993228234325913DBAD72F584737E /* Pods-CDChoosePhotoKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDChoosePhotoKit_Tests/Pods-CDChoosePhotoKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDChoosePhotoKit_Tests/Pods-CDChoosePhotoKit_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -938,7 +1002,7 @@
 			};
 			name = Debug;
 		};
-		369188DBB407F8D08F24122771D35BB7 /* Debug */ = {
+		31228F64A5B0DFBA349D9F82E99FB1F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 581AC2E321EA0A58522255F39FD5EA4D /* TOCropViewController.xcconfig */;
 			buildSettings = {
@@ -967,22 +1031,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		45DDD5CA260DFF079D8A5DDB755AF7F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 581AC2E321EA0A58522255F39FD5EA4D /* TOCropViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
-				INFOPLIST_FILE = "Target Support Files/TOCropViewController/ResourceBundle-TOCropViewControllerBundle-TOCropViewController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = TOCropViewControllerBundle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1044,40 +1092,9 @@
 			};
 			name = Release;
 		};
-		6BFC6307A544187A0FB2F7B1933CC283 /* Release */ = {
+		52BF1251316FE6B5466A23DDDB084953 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 581AC2E321EA0A58522255F39FD5EA4D /* TOCropViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TOCropViewController/TOCropViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TOCropViewController/TOCropViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TOCropViewController/TOCropViewController.modulemap";
-				PRODUCT_MODULE_NAME = TOCropViewController;
-				PRODUCT_NAME = TOCropViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		741FF92405200C1CC69EC920E9A72B38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06A993228234325913DBAD72F584737E /* Pods-CDChoosePhotoKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = 84CB3A5BE5FE4394FEFAF6596032B753 /* Pods-CDChoosePhotoKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1089,12 +1106,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CDChoosePhotoKit_Tests/Pods-CDChoosePhotoKit_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDChoosePhotoKit_Example/Pods-CDChoosePhotoKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CDChoosePhotoKit_Tests/Pods-CDChoosePhotoKit_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CDChoosePhotoKit_Example/Pods-CDChoosePhotoKit_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1103,8 +1120,25 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7705C57BE5F0FD20860064E4133D0D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 581AC2E321EA0A58522255F39FD5EA4D /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/ResourceBundle-TOCropViewControllerBundle-TOCropViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1172,40 +1206,9 @@
 			};
 			name = Debug;
 		};
-		92DF4FA8C35D723A07B7A2F1E6DC70CD /* Release */ = {
+		942D1C89E851BC551B3AD44494BF4B52 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A178B9210093B55B273426A209B8984 /* CDChoosePhotoKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CDChoosePhotoKit/CDChoosePhotoKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CDChoosePhotoKit/CDChoosePhotoKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CDChoosePhotoKit/CDChoosePhotoKit.modulemap";
-				PRODUCT_MODULE_NAME = CDChoosePhotoKit;
-				PRODUCT_NAME = CDChoosePhotoKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A3DDB5859C27E5491A8A1FC41D130038 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84CB3A5BE5FE4394FEFAF6596032B753 /* Pods-CDChoosePhotoKit_Example.release.xcconfig */;
+			baseConfigurationReference = 3E39194C508A102F54311A71B48A93B5 /* Pods-CDChoosePhotoKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1231,13 +1234,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		CEE8A7211127C74F8619169B1A36D505 /* Debug */ = {
+		98A1504A18321831D60590246FCD6520 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A178B9210093B55B273426A209B8984 /* CDChoosePhotoKit.xcconfig */;
 			buildSettings = {
@@ -1262,46 +1264,13 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DF644A9A331D1AB8878123F60C42CB26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBC2234E0A2A67B9AE75832CE31508D1 /* Pods-CDChoosePhotoKit_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CDChoosePhotoKit_Tests/Pods-CDChoosePhotoKit_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CDChoosePhotoKit_Tests/Pods-CDChoosePhotoKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F75E0544D662663A4B6F9BA19BBA66A5 /* Debug */ = {
+		C7334A828AC2B4777E35C4EE61387461 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 581AC2E321EA0A58522255F39FD5EA4D /* TOCropViewController.xcconfig */;
 			buildSettings = {
@@ -1315,20 +1284,42 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
+		};
+		D741CAC33BD0D8F4B0F1A932D3C658AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 581AC2E321EA0A58522255F39FD5EA4D /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TOCropViewController/TOCropViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/TOCropViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TOCropViewController/TOCropViewController.modulemap";
+				PRODUCT_MODULE_NAME = TOCropViewController;
+				PRODUCT_NAME = TOCropViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		187869F28F2C8A594921A7589C408DAA /* Build configuration list for PBXNativeTarget "TOCropViewController-TOCropViewControllerBundle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F75E0544D662663A4B6F9BA19BBA66A5 /* Debug */,
-				45DDD5CA260DFF079D8A5DDB755AF7F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1338,38 +1329,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EDC53F30ED98FE28E1806FC2AD32087 /* Build configuration list for PBXNativeTarget "CDChoosePhotoKit" */ = {
+		55505F1660DFA95E122D729DA4FFD6BF /* Build configuration list for PBXNativeTarget "TOCropViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEE8A7211127C74F8619169B1A36D505 /* Debug */,
-				92DF4FA8C35D723A07B7A2F1E6DC70CD /* Release */,
+				31228F64A5B0DFBA349D9F82E99FB1F0 /* Debug */,
+				D741CAC33BD0D8F4B0F1A932D3C658AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F77D796BB2894D711F488B7FB3A4432 /* Build configuration list for PBXNativeTarget "TOCropViewController" */ = {
+		6B16877918B1F18995D7EADE9D6E89EA /* Build configuration list for PBXNativeTarget "Pods-CDChoosePhotoKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				369188DBB407F8D08F24122771D35BB7 /* Debug */,
-				6BFC6307A544187A0FB2F7B1933CC283 /* Release */,
+				942D1C89E851BC551B3AD44494BF4B52 /* Debug */,
+				52BF1251316FE6B5466A23DDDB084953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEF0FB2C0897381B5E1EF5F6EDA651FF /* Build configuration list for PBXNativeTarget "Pods-CDChoosePhotoKit_Tests" */ = {
+		B87BEE77552EF36FD38190B8719267D5 /* Build configuration list for PBXNativeTarget "TOCropViewController-TOCropViewControllerBundle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				741FF92405200C1CC69EC920E9A72B38 /* Debug */,
-				DF644A9A331D1AB8878123F60C42CB26 /* Release */,
+				7705C57BE5F0FD20860064E4133D0D1C /* Debug */,
+				C7334A828AC2B4777E35C4EE61387461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6E787088ACEB584110F505FFF8F86D7 /* Build configuration list for PBXNativeTarget "Pods-CDChoosePhotoKit_Example" */ = {
+		C9052878DEFE9FA88FED3D7905EE1D8F /* Build configuration list for PBXNativeTarget "CDChoosePhotoKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				240DE48E1A9269D96727727BC6E35B3C /* Debug */,
-				A3DDB5859C27E5491A8A1FC41D130038 /* Release */,
+				0448FD502B744E3815978E2A2DB81E64 /* Debug */,
+				98A1504A18321831D60590246FCD6520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00C2053847E945C9FEC4DF85C266CA7 /* Build configuration list for PBXNativeTarget "Pods-CDChoosePhotoKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4621AD57FCE2DD3333C3E6EA75E6BF /* Debug */,
+				053F553E8D2F9B6337B5653223050249 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

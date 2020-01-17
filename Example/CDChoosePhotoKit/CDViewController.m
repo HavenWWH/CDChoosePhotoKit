@@ -47,7 +47,7 @@
     CDPhotoListController *vc = [[CDPhotoListController alloc] init];
     vc.selectArray = self.selectPhotoArray;
     vc.maxCount = 6;
-    vc.isCrop = YES;
+    vc.isCrop = false;
 //    vc.minimumImageWidth = 100;
     vc.cropScale = CGSizeMake(1, 1);
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
